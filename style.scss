@@ -229,7 +229,8 @@ table {
 // Contact Styles Ends
 
 
-// foooter///styles 
+// foooter///styles
+.main-footer{position: relative;} 
 footer{margin-top:90px;overflow: hidden;
 .footer-item{background: #E53C35;padding-left: 36px;padding-bottom: 115px;position: relative;
     &:after {
@@ -291,7 +292,7 @@ footer{margin-top:90px;overflow: hidden;
 }
 }
 
-.bottom{height: 87px;width:88%;background-color: #000;display: flex;justify-content: center;align-items: center;margin-left:auto;justify-content: space-between;position: relative;bottom:87px;z-index: 99999;
+.bottom{height: 87px;width:88%;background-color: #000;display: flex;justify-content: center;align-items: center;margin-right:auto;justify-content: space-between;position:absolute;bottom:0px;z-index: 99999;right:0;
     p{font-size: 20px;font-family: 'roman';padding-right:164px;color: #fff;}
     a{height: 100%;width:130px;background-color: #373737;display: flex;align-items: center;justify-content: center;transform: skewX(-22deg);position: relative;left:-25px;text-decoration: none;
         i{transform: rotate(150deg); color: white; font-size: 20px;}

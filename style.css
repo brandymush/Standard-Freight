@@ -684,6 +684,10 @@ table {
   text-transform: uppercase;
 }
 
+.main-footer {
+  position: relative;
+}
+
 footer {
   margin-top: 90px;
   overflow: hidden;
@@ -888,13 +892,14 @@ footer #last .tag-items a i {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: auto;
+  margin-right: auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: relative;
-  bottom: 87px;
+  position: absolute;
+  bottom: 0px;
   z-index: 99999;
+  right: 0;
 }
 
 .bottom p {
