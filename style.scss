@@ -1,0 +1,300 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+// header styling starts
+
+.navbar{height: 10vh;background:#000000;padding-left:134px;padding-right:172px;position: fixed;width: 100%;opacity: .4;z-index: 99999;;
+    // logo//
+    .logo{z-index: 99999999;position: relative;
+        img{height: 75px;}
+    }
+    //logo ends// 
+    .navbar-collapse{
+        .navbar-nav{
+            .nav-item{padding-right:45px;
+                a{font-size:20px;font-family:'roman';text-transform: uppercase;color:#fff;}
+            }
+        }
+    }
+
+
+    
+}
+
+
+
+//header styling ends
+
+
+// Billboard Section Starts
+.billboard{height:100vh;background-position:left;background-size:cover;background-repeat: no-repeat;background-image: url(./img/Billboard\-1.jpg);display:flex;justify-content:center;flex-direction:column;padding-left:143px;position: relative;
+    .overlay{height: 100%;width: 100%;position: absolute;background: #000;left: 0;opacity:.3;z-index: 1;}
+    h1{font-size: 75px;color:white;font-family:'bold';margin-bottom: 55px;line-height: 90px;z-index: 2;}
+    a{width:194px;height:65px;display: flex;justify-content: space-between;align-items: center;position:relative; overflow:hidden;text-decoration: none;z-index: 2;
+        .left{ background: #fff; width:80%; height:100%; padding-left:15px;position: relative; display: flex;align-items: center;float: left;
+           &:after {content: ''; line-height: 0;font-size: 0; width: 0; border-top: 100px solid #E53D35; border-left: 0px solid transparent;  border-right: 50px solid transparent;position: absolute; top: 0;
+            right: -50px;}
+            span{font-family:'roman';font-size: 20px;color: #000000;line-height: 24px;}
+        }
+           .right {margin-left:0px; padding-right: 15px; width:30%; height:100%;background: #E53D35;position: relative; display: flex; align-items: center;float: left;justify-content:flex-end;
+            i{color: #fff;border:3px solid #fff;border-radius:100%;padding:8px;font-size:24px;height:35px;display: flex;align-items: center;justify-content: center;}
+          
+          
+          &:before {  content: ''; line-height: 0;font-size: 0;width: 0; height: 0;border-top: 50px solid transparent;border-bottom: 100px solid #E53D35; border-left: 50px solid transparent; border-right: 0px solid #fff;position: absolute; top: -50px; left: -50px;
+          }}
+       
+
+        
+    }}
+
+    // Billboard ends here
+
+// SERVICE ITEMS STYLES
+    .services{margin:80px 0 100px;
+        >div{
+            >div{
+                .service-cards{width:100%;
+                    .img{width:100%;position: relative;display:flex;align-items:flex-end;height:231px;padding-bottom:10px;border:none;
+                        .icon{width:118px;height:100px;position:absolute;display:flex;align-items:flex-end;background:#FDFDFD;left:-20px;
+                            &:after{
+                                content: '';
+                                left:100%;margin-left:30%;
+                             border-left:50px solid #fff;
+                              border-top:100px solid transparent;
+                            }
+                            
+                            img{height: 70px;position: relative;left:30%;align-self: center;
+                                &:nth-of-type(3){height:82px;}
+                            }
+                        }
+                    }
+                    h2{font-size: 27px;font-family: 'bold';padding-bottom:19px;line-height:32px;color: #2D2D2D;}
+                    p{font-size:20px;font-family: 'roman';line-height: 24px;}
+
+                }
+            }
+        }
+    }
+  
+// SERVICE ITEMS STYLES ENDS
+
+// ABOUT US
+
+.about-us{margin-bottom: 112px;
+    h2{text-align: center;font-size: 40px;font-family: 'bold';line-height:48px;display: flex;align-items: center;justify-content: center;
+        img{height: 59px;}
+    }
+    p{color: #2D2D2D;font-size: 22px;font-family:'roman';text-align: center;line-height: 26px;padding-top: 20px;}
+    .mission-caption{display: flex;margin-top:52px;
+       .description{width: 40%;margin-top:52px;margin-right: 53px;
+           h2{text-align: left;display:flex;align-items:center;justify-content:flex-start;position: relative;right:50px;
+            img{height: 59px;}
+        }
+           p{text-align: left;font-size: 22px;font-family:'roman';line-height: 30px;color:#2D2D2D;padding-top:10px;}
+           a{font-family:'bold';font-size:18px;color:#E53D35;display:flex;align-items:center;text-decoration: none;margin-top:17px;
+            i{border-radius:100%;border:2px solid #E53D35;height:8px;width:8px;display: flex;align-items: center;justify-content: center;margin-left:8px;padding:8px;font-size:12px;}
+        }
+       }
+
+        .caption-img{width: 60%;display:flex;flex-direction:column;align-items:flex-end;position: relative;
+           .inner-cap{height:223px;width:373px;overflow: hidden;border-radius:10px;
+            img{object-fit: cover;width: 100%;height: 100%;}
+            &:nth-child(2){margin-top:28px;}
+            &:nth-child(3){position: absolute;left:30%;top:50%;transform: translate(-50%,-50%);}
+        }
+        }
+    }
+}
+
+
+
+// ABOUT US ENDS
+
+// Testimonials starts
+.testimonials{background: url(./img/abt-2.png);height:534px;width: 100%;background-size: cover;background-position: center;background-repeat: no-repeat;position: relative;
+    .overlay{height:100%;width: 100%;left: 0;top: 0;background:#000;position: absolute;opacity:.7;}
+      h2{color: #fff;font-family: 'bold';font-size: 45px;text-align: center;padding-top:50px;z-index: 99;position: relative;padding-bottom:43px;}
+      .test-item{width: 829px;height:275px;background:#fff;position: relative;z-index:999;margin: auto;display: flex;align-items: center;padding:0 40px;border-radius:10px;
+        img{height:165px;padding-right:17px;}
+        .quote{
+            h3{font-size:30px;font-family:'bold';line-height:42px;padding-bottom: 10px;}
+            p{font-size: 20px;font-family:'roman';line-height:24px;color: #2D2D2D;}
+        }
+    }
+}
+
+///Testimonials starts
+
+
+// Gallery Styles Starts
+
+.gallery{text-align: center;padding:0 73px;margin-bottom: 100px;margin-top:80px;
+    h2{display: flex;align-items: center;font-family: 'bold';font-size: 50px;line-height: 60px;justify-content:center;padding-bottom:20px;
+        img{height: 59px;}
+    }
+    p{font-family: 'roman';font-size: 20px;width:830px;margin:auto;line-height:20px;padding-bottom:76px;}
+    .img-gallery{
+        
+        .img-1{width: 302px;overflow: hidden;
+            img{height:257px;
+                &:nth-of-type(2){margin-top:22px;
+                   img{height:120px;
+                }}}
+
+        }
+        .img-2{height:536px;width:100%;
+            img{width:100%;height: 100%;object-fit: cover;}
+            
+            
+        }
+        .img-3{width: 100%;margin-top:21px;
+            img{width: 100%;height: 248px;object-fit:cover;}
+            
+            
+        }
+        .img-4{width: 100%;display:flex;justify-content:space-between;
+            img{height: 257px;width:302px;object-fit: cover;}
+         
+            
+        }
+        .img-5{width: 100%;margin-top:auto;
+            img{height: 554px;width:100%;object-fit: cover;padding-top:27px;}
+        
+            
+        }
+        
+
+    }
+}
+
+
+// Gallery Styles Ends
+
+
+// Contact Styles Starts
+   .contact{background-image: url(./img/Contact-us.jpg);height:543px;background-position: center center;background-repeat: no-repeat;background-size: cover;position: relative;display:flex;justify-content:center;align-items:center;flex-direction:column;
+       .overlay{top: 0;left: 0;background: #000;opacity: .7;position: absolute;height: 100%;width: 100%;z-index: 1;}
+       img{z-index: 3;position: relative;height: 158px;margin-bottom: 55px;}
+       a{color: #fff;font-family:'bold';font-size: 30px;line-height:36px;position: relative;z-index: 3;border:3px solid #fff;text-decoration: none;height: 77px;width: 221px;display: flex;align-items: center;justify-content: center;text-transform: uppercase;}
+
+}
+
+// Contact Styles Ends
+
+
+// foooter///styles 
+footer{margin-top:90px;overflow: hidden;
+.footer-item{background: #E53C35;padding-left: 36px;padding-bottom: 115px;position: relative;
+    &:after {
+        content: '';
+        line-height: 0;
+        font-size: 0;
+        width: 0;
+        height: 0;
+        border-top: 100px solid #E53D35;
+        border-bottom: 49px solid transparent;
+        border-left: 0px solid transparent;
+        border-right: 83px solid transparent;
+        position: absolute;
+        top: -50px;
+        right: -47px;
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
+        z-index: 999;
+        border-bottom-width: 0px;
+    
+      }
+   
+  
+    img{height:66px;margin-top: 26px;margin-bottom: 50px;}
+    p{text-align:center;text-align: center;margin-left: auto;padding:0 50px;font-family:'roman';font-size: 22px;line-height: 26px;color: #fff;padding-bottom: 16px;position: relative;z-index: 999;}
+    .icon{text-align: center;padding-bottom:17px;
+        a{color: #fff;display:inline-block;box-shadow: 0;text-decoration: none;position: relative;z-index: 999;
+            i{font-size:17px;margin-right:10px;border:2px solid #fff;border-radius:100%;padding:16px;height:26px;width:26px;display: flex;justify-content: center;align-items: center;}
+        }
+    }
+
+    a.submit{font-family:'bold';color: #fff;text-align: center;display: block;height: 68px;width: 223px;text-align: center;display: flex;justify-content:center;margin:auto;background:#E53C35;align-items:center;text-decoration: none;box-shadow: 19px 12px 16px rgba(0, 0, 0, 0.39);position: relative;z-index: 99999;font-size: 23px;}
+}
+.links{background-color:rgb(38, 35, 35);display:flex;flex-direction:column;height:100%;padding-top:30px;overflow:hidden;align-items:center;
+    &:before {
+        content: '';
+        z-index: 6;
+        line-height: 0;
+        font-size: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-bottom: 357px solid #262323;
+        border-left: 52px solid transparent;
+        border-right: 0 solid #262323;
+        position: absolute;
+        top:-3px;
+        border-width: 171px;
+    border-top-width: 467px;
+    left: -341px;}
+    h4{font-size:24px;font-family: 'bold';color: #fff;text-transform: uppercase;padding:30px 0;text-align: left;}
+    a{color: #fff;font-family:'roman';display: block;text-align: left;padding-bottom: 17px;position: relative;z-index:90000;text-decoration: none;font-size: 25px;}
+}
+#last{z-index: 3;overflow:hidden;
+    .tag-items{
+        a{font-size: 23px;text-decoration: none;display:flex;line-height: 23px;font-family:'roman';align-items: center;margin-bottom:10px;;
+            i{padding-right:20px;font-size:30px;}
+        }
+    }
+}
+}
+
+.bottom{height: 87px;width:88%;background-color: #000;display: flex;justify-content: center;align-items: center;margin-left:auto;justify-content: space-between;position: relative;bottom:87px;z-index: 99999;
+    p{font-size: 20px;font-family: 'roman';padding-right:164px;color: #fff;}
+    a{height: 100%;width:130px;background-color: #373737;display: flex;align-items: center;justify-content: center;transform: skewX(-22deg);position: relative;left:-25px;text-decoration: none;
+        i{transform: rotate(150deg); color: white; font-size: 20px;}
+    }
+}
+// footer styles ends
