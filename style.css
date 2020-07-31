@@ -84,6 +84,21 @@ table {
   color: #fff;
 }
 
+.navbar .navbar-collapse .navbar-nav .nav-item a::after {
+  content: '';
+  height: 3px;
+  width: 0%;
+  background-color: #fff;
+  display: block;
+  margin-top: 10px;
+  -webkit-transition: width .5s ease-out;
+  transition: width .5s ease-out;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item a:hover::after {
+  width: 100%;
+}
+
 .billboard {
   height: 100vh;
   background-position: left;
@@ -226,6 +241,10 @@ table {
   position: absolute;
   top: -50px;
   left: -50px;
+}
+
+.billboard a:hover p {
+  color: #E53D35;
 }
 
 .services {
@@ -683,6 +702,13 @@ table {
       -ms-flex-pack: center;
           justify-content: center;
   text-transform: uppercase;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.contact a:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .main-footer {
@@ -753,6 +779,8 @@ footer .footer-item .icon a {
   text-decoration: none;
   position: relative;
   z-index: 999;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
 }
 
 footer .footer-item .icon a i {
@@ -799,6 +827,13 @@ footer .footer-item a.submit {
   position: relative;
   z-index: 99999;
   font-size: 23px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+footer .footer-item a.submit:hover {
+  background-color: #fff;
+  color: #E53C35;
 }
 
 footer .links {
@@ -854,6 +889,12 @@ footer .links a {
   z-index: 90000;
   text-decoration: none;
   font-size: 25px;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+
+footer .links a:hover {
+  color: #E53D35;
 }
 
 footer #last {
@@ -928,6 +969,8 @@ footer #last .tag-items a i {
   position: relative;
   left: -25px;
   text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .bottom a i {
@@ -935,5 +978,15 @@ footer #last .tag-items a i {
           transform: rotate(150deg);
   color: white;
   font-size: 20px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.bottom a:hover {
+  background-color: #FDFDFD;
+}
+
+.bottom a:hover i {
+  color: #000;
 }
 /*# sourceMappingURL=style.css.map */
