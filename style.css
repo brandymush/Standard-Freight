@@ -404,6 +404,8 @@ table {
           align-items: center;
   text-decoration: none;
   margin-top: 17px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .about-us .mission-caption .description a i {
@@ -423,6 +425,15 @@ table {
   margin-left: 8px;
   padding: 8px;
   font-size: 12px;
+}
+
+.about-us .mission-caption .description a:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.about-us .mission-caption .description a:hover i {
+  color: #000git;
 }
 
 .about-us .mission-caption .caption-img {

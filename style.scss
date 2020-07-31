@@ -150,8 +150,11 @@ table {
             img{height: 59px;}
         }
            p{text-align: left;font-size: 22px;font-family:'roman';line-height: 30px;color:#2D2D2D;padding-top:10px;}
-           a{font-family:'bold';font-size:18px;color:#E53D35;display:flex;align-items:center;text-decoration: none;margin-top:17px;
+           a{font-family:'bold';font-size:18px;color:#E53D35;display:flex;align-items:center;text-decoration: none;margin-top:17px;transition:all .5s ease;
             i{border-radius:100%;border:2px solid #E53D35;height:8px;width:8px;display: flex;align-items: center;justify-content: center;margin-left:8px;padding:8px;font-size:12px;}
+            &:hover{transform: scale(1.03);
+                i{color:#000git }
+            }
         }
        }
 
