@@ -333,16 +333,28 @@ footer{margin-top:90px;overflow: hidden;
 
 
 
-.about{height:549px;background-image:url(./img/Billboard2.jpg);background-position: center center;
-    .page{display: flex;align-items:center;background-color: #E53D35;height:70px;width:240px;position:absolute;bottom:0;padding:16px;
+.about{height:549px;background-image:url(./img/Billboard2.jpg);background-position: center center;overflow:hidden;
+    .page{display: flex;align-items:center;background-color: #E53D35;height:70px;width:233px;position:absolute;bottom:0;padding:16px;;
         a{width: fit-content;font-size:25px;font-family:'roman';color: #fff;}
         p{color:#fff;display:flex;align-items:center;padding:0 10px;
             i{width: 100%;height: 100%;font-size:26px;}
         }
         p{font-size: 22px;font-family: 'bold';}
-        &::after{ content: '';left:63px; margin-left: -45px;border-left: 43px solid #E53D35;border-top: 71px solid transparent;position: relative;
-            
-            
+        &::after{ 
+            content: '';
+            position: absolute;
+            top: 0px;
+            left: 75%;
+            width: 25%;
+            height: 1000px;
+            background: #E53D35;
+            -webkit-transform-origin: 100% 0;
+            transform-origin: 100% 0;
+            -webkit-transform: skew(-45deg);
+            transform: skew(37deg);
+            z-index: 0;
+            display: block;
+        
         }
     }
 }
