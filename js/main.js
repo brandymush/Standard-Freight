@@ -11,7 +11,7 @@ var carouselOption={
     items:3,
     loop:true,
     margin:10,
-    autoplay:true,
+    autoplay:false,
     nav:false,
     autoplayTimeout:400000,
     navigation:true,

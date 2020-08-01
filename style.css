@@ -61,7 +61,7 @@ table {
   position: fixed;
   width: 100%;
   opacity: .7;
-  z-index: 99999;
+  z-index: 99786686868999;
 }
 
 .navbar .logo {
@@ -1297,8 +1297,6 @@ section.loyalty p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .admin .admin-infor .caption, .driver .admin-infor .caption {
@@ -1375,6 +1373,13 @@ section.loyalty p {
   font-size: 22;
   color: #FFFFFF;
   text-decoration: none;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.admin .require a.submit:hover, .driver .require a.submit:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 ol.carousel-indicators {
@@ -1521,10 +1526,61 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   }
   .billboard h1 {
     line-height: normal;
+    font-size: 28px !important;
   }
 }
 
 @media (max-width: 575px) {
+  section.loyalty h2 {
+    font-size: 24px;
+  }
+  section.loyalty p {
+    font-size: 18px;
+  }
+  .team {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .team p {
+    padding-bottom: 36px;
+  }
+  .team .member {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .team .member .banner {
+    height: 108px;
+    width: 150;
+  }
+  .admin, .driver {
+    margin-top: 40px;
+  }
+  .admin h2, .driver h2 {
+    font-size: 22px;
+    padding-bottom: 36px;
+  }
+  .admin h2 img, .driver h2 img {
+    height: 29px;
+  }
+  .admin .admin-infor, .driver .admin-infor {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .admin .admin-infor .caption, .driver .admin-infor .caption {
+    height: 258px;
+    width: 100%;
+    position: relative;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .admin .admin-infor a.submit, .driver .admin-infor a.submit {
+    margin-top: 25px;
+    height: 50px;
+    width: 110px;
+  }
   .contact-details {
     margin-top: 81px;
     margin-bottom: 43px;
@@ -1553,7 +1609,6 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   }
   footer .links {
     padding-top: 0 !important;
-    height: 400px;
   }
   footer .links h4 {
     position: relative;
@@ -1568,12 +1623,17 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   }
   footer #last {
     padding-bottom: 100px;
+    position: relative;
+    top: -1px;
   }
   footer #last h4 {
     padding: 0;
     padding-bottom: 24px;
     font-size: 26px;
     padding-top: 0;
+  }
+  footer #last .tag-items a {
+    font-size: 17px;
   }
   footer #links {
     display: -webkit-box;
@@ -1585,13 +1645,14 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    height: 430px;
+    height: 273px;
   }
   footer #links h4 {
     padding-top: 0;
   }
   .bottom p {
     padding-right: 20px;
+    font-size: 11px;
   }
   .services > div > div .service-cards {
     margin: 20px 0;
@@ -1756,6 +1817,24 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
 }
 
 @media (max-width: 768px) {
+  .team {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .team p {
+    padding-bottom: 36px;
+  }
+  .team .member {
+    width: 100%;
+  }
+  .team .member .banner {
+    height: 108px;
+    width: 150;
+  }
+  .billboard.about {
+    height: 60vh;
+    background-position: right;
+  }
   .billboard .overlay {
     opacity: 1;
     background-color: transparent;
@@ -1841,15 +1920,57 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   .gallery p {
     width: 80%;
   }
-  .gallery .img-gallery .img-2 {
-    margin-top: 24px;
-  }
   .gallery .img-gallery .img-4 {
     margin-top: 24px;
   }
 }
 
 @media (min-width: 568px) and (max-width: 767px) {
+  .navbar {
+    opacity: 1;
+    padding: 0 20px !important;
+    height: 60px;
+  }
+  .navbar .logo img {
+    height: 50px;
+  }
+  .navbar button img {
+    height: 50px !important;
+  }
+  .admin .admin-infor, .driver .admin-infor {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .admin .admin-infor .caption, .driver .admin-infor .caption {
+    height: 258px;
+    width: 100%;
+    position: relative;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .admin .admin-infor a.submit, .driver .admin-infor a.submit {
+    margin-top: 25px;
+    height: 50px;
+    width: 128px;
+  }
+  .team {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .team p {
+    padding-bottom: 36px;
+  }
+  .team .member {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .team .member .banner {
+    height: 108px;
+    width: 150;
+  }
   .contact img {
     z-index: 3;
     height: 100px;
@@ -1992,6 +2113,43 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .team {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .team p {
+    padding-bottom: 36px;
+  }
+  .team .member {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .team .member .banner {
+    height: 124px;
+    width: 150px;
+  }
+  .admin-infor {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .admin-infor .caption {
+    height: 258px;
+    width: 100% !important;
+    position: relative;
+    margin-right: 0px !important;
+    margin-bottom: 20px;
+  }
+  .admin-infor .caption p {
+    width: 38% !important;
+  }
+  .admin-infor a.submit {
+    margin-top: 25px;
+    height: 50px;
+    width: 128px;
+  }
   .testimonials .test-item {
     width: 90%;
   }
@@ -2060,7 +2218,7 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   }
   .billboard {
     padding-left: 20px;
-    height: 100vh;
+    height: 70vh;
   }
   .billboard h1 {
     font-size: 45px;
