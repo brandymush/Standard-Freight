@@ -376,11 +376,12 @@ table {
       -ms-flex-pack: start;
           justify-content: flex-start;
   position: relative;
-  right: 50px;
+  right: 60px;
 }
 
 .about-us .mission-caption .description h2 img {
   height: 59px;
+  margin-left: 15px;
 }
 
 .about-us .mission-caption .description p {
@@ -433,7 +434,7 @@ table {
 }
 
 .about-us .mission-caption .description a:hover i {
-  color: #000git;
+  color: #000;
 }
 
 .about-us .mission-caption .caption-img {
@@ -1001,6 +1002,216 @@ footer #last .tag-items a i {
 
 .bottom a:hover i {
   color: #000;
+}
+
+.about {
+  height: 549px;
+  background-image: url(./img/Billboard2.jpg);
+  background-position: center center;
+}
+
+.about .page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #E53D35;
+  height: 70px;
+  width: 240px;
+  position: absolute;
+  bottom: 0;
+  padding: 16px;
+}
+
+.about .page a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 25px;
+  font-family: 'roman';
+  color: #fff;
+}
+
+.about .page p {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+}
+
+.about .page p i {
+  width: 100%;
+  height: 100%;
+  font-size: 26px;
+}
+
+.about .page p {
+  font-size: 22px;
+  font-family: 'bold';
+}
+
+.about .page::after {
+  content: '';
+  left: 63px;
+  margin-left: -45px;
+  border-left: 43px solid #E53D35;
+  border-top: 71px solid transparent;
+  position: relative;
+}
+
+.contact-details {
+  margin-top: 81px;
+  margin-bottom: 123px;
+}
+
+.contact-details .item h2 {
+  font-size: 35px;
+  font-family: 'bold';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  right: 65px;
+  padding-bottom: 30px;
+}
+
+.contact-details .item h2 img {
+  padding-right: 18px;
+  height: 59px;
+}
+
+.contact-details .item p {
+  font-size: 22px;
+  font-family: 'roman';
+  line-height: 30px;
+  text-align: left;
+  padding-right: 100px;
+}
+
+.contact-details .item .value-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.contact-details .item .value-items h6 {
+  font-size: 22px;
+  font-family: 'bold';
+  width: 96px;
+  margin-right: 33px;
+}
+
+.contact-details .item .value-items p {
+  -ms-grid-column-align: right;
+      justify-self: right;
+  font-size: 19px;
+  padding-right: 0;
+}
+
+.contact-us {
+  margin-top: 126px;
+}
+
+.contact-us .contact-list h4 {
+  font-size: 35px;
+  font-family: 'bold';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 35px;
+}
+
+.contact-us .contact-list h4 img {
+  height: 59px;
+  margin-right: 18px;
+}
+
+.contact-us .contact-list .tag-items a {
+  font-family: 'roman';
+  font-size: 22px;
+  color: #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  padding-bottom: 22px;
+  line-height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-us .contact-list .tag-items a i {
+  padding-right: 12px;
+}
+
+.contact-us .contact-form h2 {
+  font-size: 35px;
+  font-family: 'bold';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 35px;
+}
+
+.contact-us .contact-form h2 img {
+  height: 59px;
+  margin-right: 18px;
+}
+
+.contact-us .contact-form p {
+  font-size: 22px;
+  font-family: 'roman';
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+
+.contact-us .contact-form input {
+  font-family: 'roman';
+  font-size: 22px;
+  color: #000000;
+  margin-bottom: 18px;
+}
+
+.contact-us .contact-form textarea {
+  height: 150px;
+  font-size: 22px;
+  color: #000000;
+  font-family: 'roman';
+  margin-bottom: 18px;
+}
+
+.contact-us .contact-form button {
+  border: none;
+  background-color: #E53D35;
+  height: 59px;
+  font-family: 'roman';
+  font-size: 22px;
+  color: #fff;
+  padding: 0 20px;
+  -webkit-transition: all .3 ease-in;
+  transition: all .3 ease-in;
+}
+
+.contact-us .contact-form button:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 @media (max-width: 320px) {

@@ -146,14 +146,14 @@ table {
     p{color: #2D2D2D;font-size: 22px;font-family:'roman';text-align: center;line-height: 26px;padding-top: 20px;}
     .mission-caption{display: flex;margin-top:52px;
        .description{width: 40%;margin-top:52px;margin-right: 53px;
-           h2{text-align: left;display:flex;align-items:center;justify-content:flex-start;position: relative;right:50px;
-            img{height: 59px;}
+           h2{text-align: left;display:flex;align-items:center;justify-content:flex-start;position: relative;right:60px;
+            img{height: 59px;margin-left:15px;}
         }
            p{text-align: left;font-size: 22px;font-family:'roman';line-height: 30px;color:#2D2D2D;padding-top:10px;}
            a{font-family:'bold';font-size:18px;color:#E53D35;display:flex;align-items:center;text-decoration: none;margin-top:17px;transition:all .5s ease;
             i{border-radius:100%;border:2px solid #E53D35;height:8px;width:8px;display: flex;align-items: center;justify-content: center;margin-left:8px;padding:8px;font-size:12px;}
             &:hover{transform: scale(1.03);
-                i{color:#000git }
+                i{color:#000}
             }
         }
        }
@@ -325,11 +325,64 @@ footer{margin-top:90px;overflow: hidden;
 }
 // footer styles ends
 
+// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                     //                     ABOUT PAGE STYLES                            //
 
 
 
+.about{height:549px;background-image:url(./img/Billboard2.jpg);background-position: center center;
+    .page{display: flex;align-items:center;background-color: #E53D35;height:70px;width:240px;position:absolute;bottom:0;padding:16px;
+        a{width: fit-content;font-size:25px;font-family:'roman';color: #fff;}
+        p{color:#fff;display:flex;align-items:center;padding:0 10px;
+            i{width: 100%;height: 100%;font-size:26px;}
+        }
+        p{font-size: 22px;font-family: 'bold';}
+        &::after{ content: '';left:63px; margin-left: -45px;border-left: 43px solid #E53D35;border-top: 71px solid transparent;position: relative;
+            
+            
+        }
+    }
+}
+// heroe ends
+// contact detaols
+.contact-details{margin-top: 81px;margin-bottom:123px;
+  .item{
+      h2{font-size: 35px;font-family: 'bold';display: flex;align-items: center;position: relative;right:65px;padding-bottom:30px;
+        img{padding-right: 18px;height:59px;} }
+    p{font-size: 22px;font-family: 'roman';line-height:30px;text-align: left;padding-right:100px;}
+    .value-items{display: flex;padding-bottom: 15px;;
+        h6{font-size:22px;font-family:'bold';width:96px;margin-right:33px;}
+        p{justify-self: right;font-size:19px;padding-right: 0;}
+    }
+  }
+}
+// ends
+// //////////////////////////////Contact PAGE STYLES
 
-
+///CONTACT LIST
+.contact-us{margin-top: 126px;
+.contact-list{
+    h4{font-size: 35px;font-family: 'bold';display:flex;align-items:center;padding-bottom: 35px;;
+        img{height:59px;margin-right: 18px;}
+    }
+    .tag-items{
+        a{font-family: 'roman';font-size:22px;color: #707070;display:flex;text-decoration: none;padding-bottom:22px;line-height:30px;align-items:center;
+            i{padding-right: 12px;}
+        }
+    }
+}
+.contact-form{
+    h2{font-size: 35px;font-family: 'bold';display:flex;align-items:center;padding-bottom: 35px;;
+        img{height:59px;margin-right: 18px;}
+    }
+    p{font-size: 22px;font-family:'roman';line-height: 26px;padding-bottom:20px;}
+    input{font-family: 'roman';font-size:22px;color:#000000;margin-bottom:18px;}
+    textarea{height:150px;font-size: 22px;color:#000000;font-family: 'roman';margin-bottom: 18px;}
+    button{border:none;background-color: #E53D35;height:59px;font-family: 'roman';font-size: 22px;color:#fff;padding:0 20px;transition:all .3 ease-in;
+        &:hover{background-color: #000;color:#fff;}
+    }
+}
+}
 
 
 
