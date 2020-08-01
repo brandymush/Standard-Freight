@@ -816,6 +816,11 @@ footer .footer-item .icon a i {
           align-items: center;
 }
 
+footer .footer-item .icon a:hover i {
+  background-color: #fff;
+  color: #E53D35;
+}
+
 footer .footer-item a.submit {
   font-family: 'bold';
   color: #fff;
@@ -1187,6 +1192,7 @@ footer #last .tag-items a i {
   font-size: 22px;
   color: #000000;
   margin-bottom: 18px;
+  border: 1px solid #707070;
 }
 
 .contact-us .contact-form textarea {
@@ -1195,6 +1201,7 @@ footer #last .tag-items a i {
   color: #000000;
   font-family: 'roman';
   margin-bottom: 18px;
+  border: 1px solid #707070;
 }
 
 .contact-us .contact-form button {
@@ -1227,6 +1234,22 @@ footer #last .tag-items a i {
 }
 
 @media (max-width: 575px) {
+  .contact-details {
+    margin-top: 81px;
+    margin-bottom: 43px;
+  }
+  .contact-details .item p {
+    padding: 0 10px;
+  }
+  .contact-details .item .value-items h6 {
+    font-size: 20px;
+    width: 36px;
+    margin-right: 50px;
+  }
+  .contact-details .item .value-items p {
+    font-size: 19px;
+    padding-right: 0;
+  }
   footer > div {
     padding: 0;
   }
@@ -1342,8 +1365,12 @@ footer #last .tag-items a i {
   .gallery {
     padding: 0 20px;
   }
+  .gallery h2 {
+    font-size: 26px;
+  }
   .gallery p {
     width: 80%;
+    font-size: 20px;
   }
   .gallery .img-gallery .img-2, .gallery .img-gallery .img-5 {
     height: 257px;
@@ -1356,6 +1383,7 @@ footer #last .tag-items a i {
   }
   .billboard {
     padding-left: 20px;
+    height: 60vh;
   }
   .billboard h1 {
     font-size: 40px;
@@ -1365,6 +1393,9 @@ footer #last .tag-items a i {
   .contact img {
     z-index: 3;
     height: 70px;
+  }
+  section.about-us h2 {
+    font-size: 26px;
   }
   section.about-us .mission-caption {
     -ms-flex-wrap: wrap-reverse;
@@ -1682,6 +1713,9 @@ footer #last .tag-items a i {
   .gallery .img-gallery .img-4 {
     margin-top: 24px;
   }
+  .navbar {
+    position: relative;
+  }
   .navbar .navbar-collapse {
     position: absolute;
     top: 100%;
@@ -1735,7 +1769,7 @@ footer #last .tag-items a i {
   }
   .billboard {
     padding-left: 20px;
-    height: 60vh;
+    height: 100vh;
   }
   .billboard h1 {
     font-size: 45px;

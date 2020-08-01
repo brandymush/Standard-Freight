@@ -276,6 +276,9 @@ footer{margin-top:90px;overflow: hidden;
     .icon{text-align: center;padding-bottom:17px;
         a{color: #fff;display:inline-block;box-shadow: 0;text-decoration: none;position: relative;z-index: 999;transition:all .3s ease-in;
             i{font-size:17px;margin-right:10px;border:2px solid #fff;border-radius:100%;padding:16px;height:26px;width:26px;display: flex;justify-content: center;align-items: center;}
+            &:hover{
+               i{ background-color:#fff;color:#E53D35;}
+            }
            
         }
     }
@@ -376,8 +379,8 @@ footer{margin-top:90px;overflow: hidden;
         img{height:59px;margin-right: 18px;}
     }
     p{font-size: 22px;font-family:'roman';line-height: 26px;padding-bottom:20px;}
-    input{font-family: 'roman';font-size:22px;color:#000000;margin-bottom:18px;}
-    textarea{height:150px;font-size: 22px;color:#000000;font-family: 'roman';margin-bottom: 18px;}
+    input{font-family: 'roman';font-size:22px;color:#000000;margin-bottom:18px;border: 1px solid #707070;}
+    textarea{height:150px;font-size: 22px;color:#000000;font-family: 'roman';margin-bottom: 18px;border: 1px solid #707070;}
     button{border:none;background-color: #E53D35;height:59px;font-family: 'roman';font-size: 22px;color:#fff;padding:0 20px;transition:all .3 ease-in;
         &:hover{background-color: #000;color:#fff;}
     }
@@ -408,7 +411,18 @@ footer{margin-top:90px;overflow: hidden;
 @media (max-width: 575px) {
 
 
-
+// contact detaols
+.contact-details{margin-top:81px;margin-bottom:43px;
+    .item{
+       
+      p{padding:0 10px;}
+      .value-items{
+          h6{font-size:20px;width:36px;margin-right:50px;}
+          p{font-size:19px;padding-right: 0;}
+      }
+    }
+  }
+  // ends
 footer{
     >div{padding:0;}
     .footer-item{padding-left:0;text-align:center;
@@ -472,7 +486,8 @@ footer{
              // Gallery Styles Starts
 
 .gallery{padding:0 20px;
-    p{width:80%;}
+    h2{font-size: 26px;}
+    p{width:80%;font-size: 20px;}
     .img-gallery{
         
        .img-2,.img-5{height:257px;
@@ -489,7 +504,7 @@ footer{
 
 
 // Gallery Styles Ends
-.billboard{padding-left:20px;
+.billboard{padding-left:20px;height:60vh;
     h1{font-size:40px;line-height:normal;padding-top: 30px;}
 
 }
@@ -504,6 +519,7 @@ footer{
 // ABOUT US
 
 section.about-us{
+    h2{font-size:26px;}
     .mission-caption{flex-wrap: wrap-reverse;justify-content:center;
         .inner-cap{width: 100% !important;
             img{width: 100% !important;}
@@ -738,7 +754,7 @@ footer{
 
 
 // Gallery Styles Ends
-.navbar{
+.navbar{position: relative;
 .navbar-collapse{position: absolute;top:100%;background-color:#E53D35;left:0;width: 100%;opacity:1;padding:20px 40px;
     ul.navbar-nav{
         li.nav-item{padding-right:45px;
@@ -770,7 +786,7 @@ footer{
 // ABOUT US ENDS
 .navbar{padding-left:40px;padding-right:40px;}
 // Billboard Section Starts
-.billboard{padding-left: 20px;height:60vh;
+.billboard{padding-left: 20px;height:100vh;
     
     h1{font-size:45px;line-height:50px}
  
