@@ -84,7 +84,7 @@ table {
 
 
 // Billboard Section Starts
-.billboard{height:100vh;background-position:left;background-size:cover;background-repeat: no-repeat;background-image: url(./img/Billboard\-1.jpg);display:flex;justify-content:center;flex-direction:column;padding-left:143px;position: relative;
+.billboard{height:100vh;background-position:center center;background-size:cover;background-repeat: no-repeat;background-image: url(./img/Billboard\-1.jpg);display:flex;justify-content:center;flex-direction:column;padding-left:143px;position: relative;
     .overlay{height: 100%;width: 100%;position: absolute;background: #000;left: 0;opacity:.1;z-index: 1;}
     h1{font-size: 75px;color:white;font-family:'bold';margin-bottom: 55px;line-height: 90px;z-index: 2;}
     a{width:194px;height:65px;display: flex;justify-content: space-between;align-items: center;position:relative;overflow:hidden;text-decoration: none;z-index: 2;
@@ -406,7 +406,7 @@ footer{
     }
     
     // SERVICE ITEMS STYLES ENDS
-    .navbar{opacity:1;padding:0 20px;
+    .navbar{opacity:1;padding:0 20px !important;height:60px;
         // logo//
         .logo{
         img{height:50px;}}
@@ -437,7 +437,7 @@ footer{
 
 // Gallery Styles Ends
 .billboard{padding-left:20px;
-    h1{font-size:40px;}
+    h1{font-size:40px;line-height:normal;padding-top: 30px;}
 
 }
 // Contact Styles Starts
@@ -476,7 +476,7 @@ section.about-us{
     .billboard{
         .overlay{opacity:1;background-color: transparent;display: none;}
     }
-    .navbar{opacity: 1;
+    .navbar{opacity: 1;padding:0 40px;
         // logo//
           button{
               img{height:80px;}
@@ -530,14 +530,109 @@ section.services{
 
 // SERVICE ITEMS STYLES ENDS
 
+.testimonials{height: 100%;padding-bottom:25px;
+    .test-item{width:90%;flex-wrap: wrap;justify-content: center;height: 100%;padding:12px 20px;}}
+     // Gallery Styles Starts
+     
+     
+        .gallery{padding:0 20px;
+            p{width:80%;}
+            .img-gallery{
+                
+               .img-2{margin-top:24px;
+                   
+               }
+                .img-4{margin-top: 24px; }}}
 }
 // Small devices (landscape phones, 576px and up 767)
 @media (min-width: 568px) and (max-width: 767px) {
+// Contact Styles Starts
+.contact{
+    
+    img{z-index: 3;height:100px;}
+   
+ 
 
-// header styling starts
+}
+// ABOUT US
+    // SERVICE ITEMS STYLES
+.services{
+    >div{
+        >div{
+            .service-cards{
+                .img{height:278px;
+                    img{height: 100%;width: 100%;object-fit: cover;}
+                    .icon{width:115px !important;height:105px;
+                        &:after{
+                            content: '';
+                            left:100%;margin-left:0%;
+                         border-left:50px solid #FDFDFD;
+                          border-top:105px solid transparent;
+                        }
+                        
+                        img{align-self:flex-end;height:100px;left:0;
+                            &:nth-of-type(3){height:118px;}
+                        }
+                    }
+                }
+                
+                p{font-size:15px;}
+
+            }
+        }
+    }
+}
+
+// SERVICE ITEMS STYLES ENDS
+    body > div:nth-child(4){padding: 0 !important;margin: auto !important;text-align: center;}
+nav.navbar{padding:0 20px;position: relative;}
+.billboard{height:100vh;
+    .overlay{opacity:1;background-color: transparent;display: none;}
+    h1{font-size: 50px;}
+}
+
+section.about-us{
+    .mission-caption{flex-wrap: wrap-reverse;justify-content:center;
+        .inner-cap{width: 100% !important;
+            img{width: 100% !important;}
+            &:nth-of-type(3){display: none;;
+                
+            }
+
+        }
+       .description{width:100%;
+           h2{left:10px;}}
+
+        .caption-img{width:100%;}}}
 
 
 
+// ABOUT US ENDS
+body > div:nth-child(3) > section > div > div:nth-child(3) > div > div > div > img{height:118px !important;}
+
+footer{
+    >div{padding:0;}
+    .footer-item{padding-left:0;text-align:center;
+         img{height:56px;}
+         &::after{display: none;}
+    }
+        .links{padding-top: 0 !important;height:400px;
+            h4{position: relative;z-index: 9;padding: 0;padding-top: 0;padding-bottom: 24px;font-size:26px;}
+            &::before{
+                border-top-width:508px;
+            }}
+            #last{padding-bottom:100px;
+                h4{padding: 0;padding-bottom: 24px;font-size:26px;padding-top: 0;}
+            }
+            #links{display: flex;align-items: center;justify-content: center;height:100%;
+                h4{padding-top:0;}
+            }
+
+
+}
+.bottom{
+    p{padding-right:20px;}
+}
 
     
 }

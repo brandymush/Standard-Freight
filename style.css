@@ -101,7 +101,7 @@ table {
 
 .billboard {
   height: 100vh;
-  background-position: left;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./img/Billboard\-1.jpg);
@@ -1105,7 +1105,8 @@ footer #last .tag-items a i {
   }
   .navbar {
     opacity: 1;
-    padding: 0 20px;
+    padding: 0 20px !important;
+    height: 60px;
   }
   .navbar .logo img {
     height: 50px;
@@ -1147,6 +1148,8 @@ footer #last .tag-items a i {
   }
   .billboard h1 {
     font-size: 40px;
+    line-height: normal;
+    padding-top: 30px;
   }
   .contact img {
     z-index: 3;
@@ -1187,6 +1190,7 @@ footer #last .tag-items a i {
   }
   .navbar {
     opacity: 1;
+    padding: 0 40px;
   }
   .navbar button img {
     height: 80px;
@@ -1243,6 +1247,174 @@ footer #last .tag-items a i {
   }
   section.services > div > div .service-cards p {
     font-size: 15px;
+  }
+  .testimonials {
+    height: 100%;
+    padding-bottom: 25px;
+  }
+  .testimonials .test-item {
+    width: 90%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+    padding: 12px 20px;
+  }
+  .gallery {
+    padding: 0 20px;
+  }
+  .gallery p {
+    width: 80%;
+  }
+  .gallery .img-gallery .img-2 {
+    margin-top: 24px;
+  }
+  .gallery .img-gallery .img-4 {
+    margin-top: 24px;
+  }
+}
+
+@media (min-width: 568px) and (max-width: 767px) {
+  .contact img {
+    z-index: 3;
+    height: 100px;
+  }
+  .services > div > div .service-cards .img {
+    height: 278px;
+  }
+  .services > div > div .service-cards .img img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .services > div > div .service-cards .img .icon {
+    width: 115px !important;
+    height: 105px;
+  }
+  .services > div > div .service-cards .img .icon:after {
+    content: '';
+    left: 100%;
+    margin-left: 0%;
+    border-left: 50px solid #FDFDFD;
+    border-top: 105px solid transparent;
+  }
+  .services > div > div .service-cards .img .icon img {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    height: 100px;
+    left: 0;
+  }
+  .services > div > div .service-cards .img .icon img:nth-of-type(3) {
+    height: 118px;
+  }
+  .services > div > div .service-cards p {
+    font-size: 15px;
+  }
+  body > div:nth-child(4) {
+    padding: 0 !important;
+    margin: auto !important;
+    text-align: center;
+  }
+  nav.navbar {
+    padding: 0 20px;
+    position: relative;
+  }
+  .billboard {
+    height: 100vh;
+  }
+  .billboard .overlay {
+    opacity: 1;
+    background-color: transparent;
+    display: none;
+  }
+  .billboard h1 {
+    font-size: 50px;
+  }
+  section.about-us .mission-caption {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section.about-us .mission-caption .inner-cap {
+    width: 100% !important;
+  }
+  section.about-us .mission-caption .inner-cap img {
+    width: 100% !important;
+  }
+  section.about-us .mission-caption .inner-cap:nth-of-type(3) {
+    display: none;
+  }
+  section.about-us .mission-caption .description {
+    width: 100%;
+  }
+  section.about-us .mission-caption .description h2 {
+    left: 10px;
+  }
+  section.about-us .mission-caption .caption-img {
+    width: 100%;
+  }
+  body > div:nth-child(3) > section > div > div:nth-child(3) > div > div > div > img {
+    height: 118px !important;
+  }
+  footer > div {
+    padding: 0;
+  }
+  footer .footer-item {
+    padding-left: 0;
+    text-align: center;
+  }
+  footer .footer-item img {
+    height: 56px;
+  }
+  footer .footer-item::after {
+    display: none;
+  }
+  footer .links {
+    padding-top: 0 !important;
+    height: 400px;
+  }
+  footer .links h4 {
+    position: relative;
+    z-index: 9;
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 24px;
+    font-size: 26px;
+  }
+  footer .links::before {
+    border-top-width: 508px;
+  }
+  footer #last {
+    padding-bottom: 100px;
+  }
+  footer #last h4 {
+    padding: 0;
+    padding-bottom: 24px;
+    font-size: 26px;
+    padding-top: 0;
+  }
+  footer #links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+  }
+  footer #links h4 {
+    padding-top: 0;
+  }
+  .bottom p {
+    padding-right: 20px;
   }
 }
 
