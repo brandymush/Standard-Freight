@@ -102,14 +102,10 @@ table {
                 .service-cards{width:100%;
                     .img{width:100%;position: relative;display:flex;align-items:flex-end;height:231px;padding-bottom:10px;border:none;
                         .icon{width:118px;height:99px;position:absolute;display:flex;align-items:flex-end;background:#FDFDFD;left:-20px;
-                            &:after{
-                                content: '';
-                                left:100%;margin-left:30%;
-                             border-left:50px solid #FDFDFD;
-                              border-top:100px solid transparent;
+                            &:after{ content: '';left:100%;margin-left:-1%;border-left:50px solid #FDFDFD; border-top:100px solid transparent;position: absolute;z-index:1;
                             }
                             
-                            img{height: 70px;position: relative;left:30%;align-self: center;
+                            img{height: 70px;position: relative;left:30%;align-self: center;z-index:3;
                                 &:nth-of-type(3){height:82px;}
                             }
                         }

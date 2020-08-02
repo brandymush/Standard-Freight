@@ -290,9 +290,11 @@ table {
 .services > div > div .service-cards .img .icon:after {
   content: '';
   left: 100%;
-  margin-left: 30%;
+  margin-left: -1%;
   border-left: 50px solid #FDFDFD;
   border-top: 100px solid transparent;
+  position: absolute;
+  z-index: 1;
 }
 
 .services > div > div .service-cards .img .icon img {
@@ -302,6 +304,7 @@ table {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  z-index: 3;
 }
 
 .services > div > div .service-cards .img .icon img:nth-of-type(3) {
