@@ -1831,6 +1831,10 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
     height: 108px;
     width: 150;
   }
+  body > div:nth-child(3) > section > div > div:nth-child(1) > div > div > div {
+    height: 102px !important;
+    width: 116px !important;
+  }
   .billboard.about {
     height: 60vh;
     background-position: right;
@@ -1885,7 +1889,7 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   section.services > div > div .service-cards .img .icon:after {
     content: '';
     left: 100%;
-    margin-left: 0%;
+    margin-left: -0.5%;
     border-left: 50px solid #FDFDFD;
     border-top: 105px solid transparent;
   }
