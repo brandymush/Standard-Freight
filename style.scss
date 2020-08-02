@@ -50,7 +50,7 @@ table {
 
 // header styling starts
 
-.navbar{height: 108px;background:#000;padding-left:134px;padding-right:172px;position: fixed;width: 100%;opacity:.7;z-index: 99786686868999;;
+.navbar{height: 108px;background:#000;padding-left:134px;padding-right:172px;position: fixed;width: 100%;opacity:.7;z-index: 99786686868999;transition:all .3s ease-in;
     // logo//
     .logo{z-index: 99999999;position: relative;
         img{height: 75px;}

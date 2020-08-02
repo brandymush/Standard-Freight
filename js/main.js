@@ -6,10 +6,10 @@ $(".myBtn").click(function() {
 
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 50) {
-        $("nav").addClass("active");
+        $("nav").addClass("active shadow");
     } else {
         //remove the background property so it comes transparent again (defined in your css)
-       $("nav").removeClass("active");
+       $("nav").removeClass("active shadow");
     }
 });
 
