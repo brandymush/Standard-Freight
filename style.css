@@ -99,6 +99,10 @@ table {
   width: 100%;
 }
 
+.navbar.active {
+  opacity: 1;
+}
+
 .billboard {
   height: 100vh;
   background-position: center center;
@@ -134,7 +138,7 @@ table {
   color: white;
   font-family: 'bold';
   margin-bottom: 55px;
-  line-height: 90px;
+  line-height: normal;
   z-index: 2;
 }
 
@@ -1517,12 +1521,22 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   outline: 0;
 }
 
+@media (min-width: 460px) and (max-width: 533px) {
+  section.billboard {
+    height: 100vh;
+  }
+  section.billboard h1 {
+    line-height: normal;
+    font-size: 28px !important;
+  }
+}
+
 @media (max-width: 320px) {
   nav.navbar .logo img {
-    height: 40px;
+    height: 30px;
   }
   nav.navbar button img {
-    height: 40px !important;
+    height: 30px !important;
   }
   .billboard h1 {
     line-height: normal;
@@ -1669,6 +1683,7 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   .services > div > div .service-cards .img .icon {
     width: 118px;
     height: 105px;
+    left: 0;
   }
   .services > div > div .service-cards .img .icon:after {
     content: '';
@@ -1695,10 +1710,10 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
     height: 60px;
   }
   .navbar .logo img {
-    height: 50px;
+    height: 35px;
   }
   .navbar button img {
-    height: 50px !important;
+    height: 40px !important;
   }
   .testimonials {
     height: 100%;
@@ -1735,10 +1750,10 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   }
   .billboard {
     padding-left: 20px;
-    height: 60vh;
+    height: 70vh;
   }
   .billboard h1 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: normal;
     padding-top: 30px;
   }
@@ -1888,6 +1903,7 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   section.services > div > div .service-cards .img .icon {
     width: 118px;
     height: 105px;
+    left: 0;
   }
   section.services > div > div .service-cards .img .icon:after {
     content: '';
@@ -1997,6 +2013,7 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   .services > div > div .service-cards .img .icon {
     width: 115px !important;
     height: 105px;
+    left: 0;
   }
   .services > div > div .service-cards .img .icon:after {
     content: '';
@@ -2249,6 +2266,7 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   .services > div > div .service-cards .img .icon {
     width: 118px;
     height: 105px;
+    left: 0;
   }
   .services > div > div .service-cards .img .icon:after {
     content: '';
@@ -2363,6 +2381,9 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
 }
 
 @media (min-width: 1200px) {
+  section.billboard h1 {
+    line-height: 90px;
+  }
   .main-footer {
     position: relative;
   }
