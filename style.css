@@ -1029,7 +1029,7 @@ footer #last .tag-items a i {
           align-items: center;
   background-color: #E53D35;
   height: 70px;
-  width: 233px;
+  width: 215px;
   position: absolute;
   bottom: 0;
   -webkit-box-pack: center;
@@ -1074,9 +1074,9 @@ footer #last .tag-items a i {
   content: '';
   position: absolute;
   top: 0px;
-  left: 75%;
-  width: 25%;
-  height: 1000px;
+  left: 69%;
+  width: 31%;
+  height: 300px;
   background: #E53D35;
   -webkit-transform-origin: 100% 0;
   transform-origin: 100% 0;
@@ -1545,6 +1545,21 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
 }
 
 @media (max-width: 575px) {
+  .about .page {
+    height: 40px;
+  }
+  .about .page a {
+    font-size: 20px;
+  }
+  .about .page p i {
+    font-size: 18px;
+  }
+  .about .page p {
+    font-size: 18px;
+  }
+  .about .page::after {
+    display: none;
+  }
   section.loyalty h2 {
     font-size: 24px;
   }
@@ -1831,6 +1846,9 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   }
   body > div:nth-child(3) > section > div > div > div > div > div > img {
     left: 5% !important;
+  }
+  .billboard {
+    padding-left: 40px;
   }
 }
 
