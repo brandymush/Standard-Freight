@@ -6,17 +6,23 @@ $(".myBtn").click(function() {
 
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 50) {
-        $("nav").addClass("active shadow");
+        $("nav").addClass("active shadow-lg");
     } else {
         //remove the background property so it comes transparent again (defined in your css)
-       $("nav").removeClass("active shadow");
+       $("nav").removeClass("active shadow-lg");
     }
 });
+
+    
+
+      
+
+
 
 var owl= $('.owl-carousel');
 
 var carouselOption={
-    items:3,
+   
     loop:true,
     margin:10,
     autoplay:false,
@@ -26,14 +32,17 @@ var carouselOption={
     autoplayHoverPause:true,
     responsive:{
         0:{
-            items:1
+           items:1 
         },
         768:{
-            items:1
+            items:3
         },
         1440:{
-            items:1
+            items:3
         },
+        576:{
+            items:1
+        }
        
     }
 

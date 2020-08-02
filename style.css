@@ -1502,8 +1502,8 @@ ol.carousel-indicators li.active {
   color: #FDFDFD;
 }
 
-body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage-outer {
-  overflow-x: hidden;
+body > section.team > div > div > div > div.owl-stage-outer {
+  height: 100%;
   padding-bottom: 70px;
 }
 
@@ -1524,6 +1524,10 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
 .owl-dots button.active, .owl-dots button:focus {
   background-color: #E53C35 !important;
   outline: 0;
+}
+
+.owl-dots button span {
+  display: none !important;
 }
 
 @media (min-width: 460px) and (max-width: 533px) {
@@ -1777,6 +1781,10 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
     line-height: normal;
     padding-top: 30px;
   }
+  .billboard a {
+    height: 44px;
+    width: 167px;
+  }
   .contact img {
     z-index: 3;
     height: 70px;
@@ -1879,6 +1887,9 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   .billboard.about {
     height: 60vh;
     background-position: right;
+  }
+  .billboard {
+    height: 60vh;
   }
   .billboard .overlay {
     opacity: 1;
@@ -2271,7 +2282,7 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   }
   .billboard {
     padding-left: 20px;
-    height: 70vh;
+    height: 60vh;
   }
   .billboard h1 {
     font-size: 45px;
@@ -2400,6 +2411,12 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   }
   .services > div > div .service-cards p {
     font-size: 15px;
+  }
+  .billboard {
+    height: 65vh;
+  }
+  .billboard h1 {
+    font-size: 65px;
   }
 }
 

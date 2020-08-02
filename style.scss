@@ -405,10 +405,11 @@ ol.carousel-indicators{left:inherit;margin-right:0;bottom:-10px;
     }
 }
 
-body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage-outer{overflow-x: hidden;padding-bottom:70px;}
+body > section.team > div > div > div > div.owl-stage-outer{height: 100%;padding-bottom: 70px;}
 .owl-dots{margin: auto;width:fit-content;
     button{height:4px;width:50px;background-color:#2D2D2D !important;margin:0 5px;
         &.active,&:focus{background-color: #E53C35 !important;outline: 0;}
+        span{display: none !important;}
 
     }
 }
@@ -574,6 +575,7 @@ footer{
 // Gallery Styles Ends
 .billboard{padding-left:20px;height:70vh;
     h1{font-size:30px;line-height:normal;padding-top: 30px;}
+    a{height:44px;width: 167px;}
 
 }
 // Contact Styles Starts
@@ -648,7 +650,7 @@ section.about-us{
     }
     body > div:nth-child(3) > section > div > div:nth-child(1) > div > div > div{height:102px !important;width: 116px !important;}
     .billboard.about{height:60vh;background-position: right;}
-    .billboard{
+    .billboard{height:60vh;
         .overlay{opacity:1;background-color: transparent;display: none;}
     }
     .navbar{opacity: 1;padding:0 40px;
@@ -923,7 +925,7 @@ footer{
 // ABOUT US ENDS
 .navbar{padding-left:40px;padding-right:40px;}
 // Billboard Section Starts
-.billboard{padding-left: 20px;height:70vh;
+.billboard{padding-left: 20px;height:60vh;
     
     h1{font-size:45px;line-height:50px}
  
@@ -1035,6 +1037,9 @@ footer{margin-top:90px;overflow: hidden;
 }
 
 // SERVICE ITEMS STYLES ENDS
+.billboard{height:65vh;
+    h1{font-size:65px;}
+}
 
 }
 
