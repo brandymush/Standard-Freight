@@ -659,6 +659,7 @@ section.about-us{
                     }
             }}
         }
+        body > section.contact-details > div > div > div > div > h2{right: auto !important;}
         body > div:nth-child(3) > section > div > div > div > div > div > img{
             left: 5% !important;
         }
@@ -747,6 +748,7 @@ section.services{
 }
 // Small devices (landscape phones, 576px and up 767)
 @media (min-width: 568px) and (max-width: 767px) {
+    body > section.contact-details > div > div > div > div > h2{right: auto !important;}
     .navbar{opacity:1;padding:0 20px !important;height:60px;
         // logo//
         .logo{
@@ -880,6 +882,7 @@ footer{
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) {
+    body > section.contact-details > div > div > div > div > h2{right: auto !important;}
     .team{margin-top:50px;margin-bottom:25px;
         
         p{padding-bottom: 36px;}
@@ -1012,6 +1015,7 @@ footer{margin-top:90px;overflow: hidden;
 
 // Large devices  Ipad(desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px) {
+    body > section.contact-details > div > div > div > div > h2{right: auto !important;}
     footer{
         .footer-item{
             &:after {display: none;}

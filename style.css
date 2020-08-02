@@ -1811,6 +1811,9 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
   .navbar .navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover::after {
     width: 100%;
   }
+  body > section.contact-details > div > div > div > div > h2 {
+    right: auto !important;
+  }
   body > div:nth-child(3) > section > div > div > div > div > div > img {
     left: 5% !important;
   }
@@ -1930,6 +1933,9 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
 }
 
 @media (min-width: 568px) and (max-width: 767px) {
+  body > section.contact-details > div > div > div > div > h2 {
+    right: auto !important;
+  }
   .navbar {
     opacity: 1;
     padding: 0 20px !important;
@@ -2117,6 +2123,9 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  body > section.contact-details > div > div > div > div > h2 {
+    right: auto !important;
+  }
   .team {
     margin-top: 50px;
     margin-bottom: 25px;
@@ -2308,6 +2317,9 @@ body > section.team > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-stage
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  body > section.contact-details > div > div > div > div > h2 {
+    right: auto !important;
+  }
   footer .footer-item:after {
     display: none;
   }
