@@ -280,8 +280,8 @@ button:focus {
 }
 
 .billboard a:hover .right i {
-  color: #000000;
-  border: 3px solid #000;
+  color: #E53D35;
+  border: 3px solid #E53D35;
 }
 
 .billboard a:hover .right:before {
