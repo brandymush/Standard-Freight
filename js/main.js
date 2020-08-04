@@ -26,7 +26,7 @@ $('.carousel').carousel();
 var owl= $('.owl-carousel');
 
 var carouselOption={
-   
+   items:1,
     loop:true,
     margin:10,
     autoplay:false,
@@ -35,7 +35,10 @@ var carouselOption={
     autoplayHoverPause:true,
     responsive:{
         0:{
-           items:1 
+         
+           items:1,
+            nav:true,
+            navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'], 
         },
         768:{
             items:3
@@ -46,7 +49,7 @@ var carouselOption={
         576:{
             items:1,
             nav:true,
-            
+            navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
         }
        
     }

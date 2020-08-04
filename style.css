@@ -1465,6 +1465,15 @@ ol.carousel-indicators li.active {
   height: 288px;
   width: 296px;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .team .member .overlay {
@@ -1494,11 +1503,10 @@ ol.carousel-indicators li.active {
   height: 108px;
   width: 247px;
   position: absolute;
-  bottom: -10%;
-  left: 8%;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
   padding-top: 12px;
+  bottom: -12%;
 }
 
 .team .member .banner h5 {
@@ -1559,6 +1567,7 @@ body > section.team > div > div > div > div.owl-stage-outer {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  margin-top: 50px !important;
 }
 
 .owl-dots button {
@@ -1601,6 +1610,34 @@ body > section.team > div > div > div > div.owl-stage-outer {
 }
 
 @media (max-width: 575px) {
+  .owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: transparent;
+  }
+  .owl-dots {
+    display: none;
+  }
+  .owl-prev, .owl-next {
+    position: absolute;
+    top: 0;
+    height: 100%;
+  }
+  button span {
+    color: #fff;
+  }
+  .owl-prev {
+    left: 0;
+  }
+  .owl-next {
+    right: 0;
+  }
+  /* removing blue outline from buttons */
+  button:focus, button:active, button:hover {
+    outline: none;
+    background-color: transparent;
+  }
+  .icon {
+    top: 0;
+  }
   .about .page {
     height: 40px;
   }
@@ -1646,7 +1683,12 @@ body > section.team > div > div > div > div.owl-stage-outer {
   .team .member .banner {
     height: 108px;
     width: 150;
-    left: 15%;
+  }
+  .team .owl-dots {
+    display: none;
+  }
+  .team .icon {
+    top: 0;
   }
   .admin, .driver {
     margin-top: 60px;
@@ -2042,10 +2084,13 @@ body > section.team > div > div > div > div.owl-stage-outer {
   .team p {
     padding-bottom: 36px;
   }
-  .team .member {
+  .team > div > div.item {
+    max-width: 100% !important;
+  }
+  .team > div > div.item .member {
     width: 100%;
   }
-  .team .member .banner {
+  .team > div > div.item .member .banner {
     height: 108px;
     width: 150;
   }
@@ -2166,6 +2211,9 @@ body > section.team > div > div > div > div.owl-stage-outer {
   .navbar button img {
     height: 50px !important;
   }
+  body > section.team > div.container > div > div > div.owl-stage-outer {
+    padding-bottom: 0;
+  }
   .admin .admin-infor, .driver .admin-infor {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -2188,6 +2236,7 @@ body > section.team > div > div > div > div.owl-stage-outer {
   .team {
     margin-top: 50px;
     margin-bottom: 25px;
+    /* removing blue outline from buttons */
   }
   .team p {
     padding-bottom: 36px;
@@ -2199,6 +2248,33 @@ body > section.team > div > div > div > div.owl-stage-outer {
   .team .member .banner {
     height: 108px;
     width: 150;
+  }
+  .team .owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: transparent;
+  }
+  .team .owl-dots {
+    display: none;
+  }
+  .team .owl-prev, .team .owl-next {
+    position: absolute;
+    top: 0;
+    height: 100%;
+  }
+  .team button span {
+    color: #fff;
+  }
+  .team .owl-prev {
+    left: 0;
+  }
+  .team .owl-next {
+    right: 0;
+  }
+  .team button:focus, .team button:active, .team button:hover {
+    outline: none;
+    background-color: transparent;
+  }
+  .team .icon {
+    top: 0;
   }
   .contact img {
     z-index: 3;
