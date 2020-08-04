@@ -94,6 +94,20 @@ button:focus {
           
           &:before {  content: ''; line-height: 0;font-size: 0;width: 0; height: 0;border-top: 50px solid transparent;border-bottom: 100px solid #E53D35; border-left: 50px solid transparent; border-right: 0px solid #fff;position: absolute; top: -50px; left: -50px;
           }}
+          &:hover{
+              .left{background-color:#E53D35;
+                span{z-index:999;position: relative;}
+                &:after{background-color:#E53D35;border-top: 100px solid #fff;}
+            }
+              .right{background-color: #fff;z-index:99;position: relative;
+                
+                i{color: #000000;border:3px solid #000;}
+                &:before{background-color:#E53D35;border-bottom: 100px solid #fff;
+                    
+                }
+            }
+             
+          }
          
         }
         a:hover{

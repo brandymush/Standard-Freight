@@ -258,6 +258,36 @@ button:focus {
   left: -50px;
 }
 
+.billboard a:hover .left {
+  background-color: #E53D35;
+}
+
+.billboard a:hover .left span {
+  z-index: 999;
+  position: relative;
+}
+
+.billboard a:hover .left:after {
+  background-color: #E53D35;
+  border-top: 100px solid #fff;
+}
+
+.billboard a:hover .right {
+  background-color: #fff;
+  z-index: 99;
+  position: relative;
+}
+
+.billboard a:hover .right i {
+  color: #000000;
+  border: 3px solid #000;
+}
+
+.billboard a:hover .right:before {
+  background-color: #E53D35;
+  border-bottom: 100px solid #fff;
+}
+
 .billboard a:hover p {
   color: #E53D35;
 }
