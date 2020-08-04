@@ -2129,6 +2129,9 @@ body > section.team > div > div > div > div.owl-stage-outer {
     height: 108px;
     width: 150;
   }
+  .team .item {
+    padding: 0;
+  }
   body > div:nth-child(3) > section > div > div:nth-child(1) > div > div > div {
     height: 102px !important;
     width: 116px !important;
