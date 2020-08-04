@@ -475,7 +475,7 @@ body > section.team > div > div > div > div.owl-stage-outer{height: 100%;padding
     
     /* removing blue outline from buttons */
     button:focus, button:active ,button:hover{outline: none;background-color: transparent;}
-    .icon{top: 0;}
+    
 .about{
     .page{height:40px;
         a{font-size:20px;}
@@ -576,7 +576,7 @@ footer{
                 .service-cards{margin:20px 0;
                     .img{height:278px;
                         img{height: 100%;width: 100%;object-fit: cover;}
-                        .icon{width:118px;height:105px;left:0;
+                        .icon{width:118px;height:105px;left:0;bottom:0;
                             &:after{
                                 content: '';
                                 left:100%;margin-left:0%;
@@ -827,7 +827,7 @@ body > section.team > div.container > div > div > div.owl-stage-outer{padding-bo
     }
 }
     .team{margin-top:50px;margin-bottom:25px;
-        
+        .icon{top: 0;}
         p{padding-bottom: 36px;}
     
         .member{width:100%;margin-bottom: 50px;
@@ -849,7 +849,7 @@ body > section.team > div.container > div > div > div.owl-stage-outer{padding-bo
         
         /* removing blue outline from buttons */
         button:focus, button:active ,button:hover{outline: none;background-color: transparent;}
-        .icon{top: 0;}
+        
     }
 // Contact Styles Starts
 

@@ -1635,9 +1635,6 @@ body > section.team > div > div > div > div.owl-stage-outer {
     outline: none;
     background-color: transparent;
   }
-  .icon {
-    top: 0;
-  }
   .about .page {
     height: 40px;
   }
@@ -1844,6 +1841,7 @@ body > section.team > div > div > div > div.owl-stage-outer {
     width: 118px;
     height: 105px;
     left: 0;
+    bottom: 0;
   }
   .services > div > div .service-cards .img .icon:after {
     content: '';
@@ -2238,6 +2236,9 @@ body > section.team > div > div > div > div.owl-stage-outer {
     margin-bottom: 25px;
     /* removing blue outline from buttons */
   }
+  .team .icon {
+    top: 0;
+  }
   .team p {
     padding-bottom: 36px;
   }
@@ -2272,9 +2273,6 @@ body > section.team > div > div > div > div.owl-stage-outer {
   .team button:focus, .team button:active, .team button:hover {
     outline: none;
     background-color: transparent;
-  }
-  .team .icon {
-    top: 0;
   }
   .contact img {
     z-index: 3;
