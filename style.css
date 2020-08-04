@@ -2195,6 +2195,18 @@ body > section.team > div > div > div > div.owl-stage-outer {
 }
 
 @media (min-width: 568px) and (max-width: 767px) {
+  .gallery .img-gallery .img-1 {
+    margin-bottom: 24px;
+  }
+  .gallery .img-gallery .img-2, .gallery .img-gallery .img-5 {
+    height: 257px;
+  }
+  .gallery .img-gallery .img-2 img, .gallery .img-gallery .img-5 img {
+    height: 100%;
+  }
+  .gallery .img-gallery .img-4 {
+    margin-top: 24px;
+  }
   body > section.contact-details > div > div > div > div > h2 {
     right: auto !important;
   }
