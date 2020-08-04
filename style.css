@@ -169,6 +169,8 @@ button:focus {
   overflow: hidden;
   text-decoration: none;
   z-index: 2;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .billboard a .left {

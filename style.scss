@@ -82,7 +82,7 @@ button:focus {
 .billboard{height:100vh;background-position:center center;background-size:cover;background-repeat: no-repeat;background-image: url(./img/Billboard\-1.jpg);display:flex;justify-content:center;flex-direction:column;padding-left:143px;position: relative;
     .overlay{height: 100%;width: 100%;position: absolute;background: #000;left: 0;opacity:.1;z-index: 1;}
     h1{font-size: 75px;color:white;font-family:'bold';margin-bottom: 55px;line-height:normal;z-index: 2;}
-    a{width:194px;height:65px;display: flex;justify-content: space-between;align-items: center;position:relative;overflow:hidden;text-decoration: none;z-index: 2;
+    a{width:194px;height:65px;display: flex;justify-content: space-between;align-items: center;position:relative;overflow:hidden;text-decoration: none;z-index: 2;transition:all .5s ease-in-out;
         .left{ background: #fff; width:80%; height:100%; padding-left:15px;position: relative; display: flex;align-items: center;float: left;
            &:after {content: ''; line-height: 0;font-size: 0; width: 0; border-top: 100px solid #E53D35; border-left: 0px solid transparent;  border-right: 50px solid transparent;position: absolute; top: 0;
             right: -50px;}
