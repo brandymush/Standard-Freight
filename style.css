@@ -1496,7 +1496,7 @@ ol.carousel-indicators li.active {
 
 .team .member {
   height: 288px;
-  width: 296px;
+  width: 100%;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1507,6 +1507,7 @@ ol.carousel-indicators li.active {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  padding: 0 22.5px;
 }
 
 .team .member .overlay {
