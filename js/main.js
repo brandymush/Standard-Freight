@@ -14,10 +14,14 @@ $(window).on("scroll", function() {
 });
 
     
+$(".navbar-toggler").click(function(e){
+    e.preventDefault();
+    $('.navbar-toggler').toggleClass("main");
+  });
 
-      
+$.fn.carousel.TRANSITION_DURATION = 1000;
 
-
+$('.carousel').carousel();
 
 var owl= $('.owl-carousel');
 
@@ -26,7 +30,6 @@ var carouselOption={
     loop:true,
     margin:10,
     autoplay:false,
-    nav:false,
     autoplayTimeout:400000,
     navigation:true,
     autoplayHoverPause:true,
@@ -41,7 +44,9 @@ var carouselOption={
             items:3
         },
         576:{
-            items:1
+            items:1,
+            nav:true,
+            
         }
        
     }
