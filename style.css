@@ -1798,8 +1798,11 @@ body > section.team > div > div > div > div.owl-stage-outer {
     font-size: 22px;
   }
   #carouselExampleIndicators > ol {
-    right: 30%;
     bottom: -36px;
+    right: 0;
+    bottom: -36px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   body > section.team > div > div > div > div.owl-stage-outer {
     padding-bottom: 0;
