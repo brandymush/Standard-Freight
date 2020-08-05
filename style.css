@@ -1799,8 +1799,8 @@ body > section.team > div > div > div > div.owl-stage-outer {
   }
   #carouselExampleIndicators > ol {
     bottom: -36px;
-    right: -20px;
-    bottom: -36px;
+    margin: auto;
+    left: 0;
   }
   body > section.team > div > div > div > div.owl-stage-outer {
     padding-bottom: 0;
