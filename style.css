@@ -120,6 +120,9 @@ button:focus {
 
 .navbar .navbar-collapse .navbar-nav .nav-item {
   padding-right: 45px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item a {
