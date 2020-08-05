@@ -1483,7 +1483,7 @@ section.loyalty p {
 }
 
 ol.carousel-indicators {
-  left: inherit;
+  left: 0;
   margin-right: 0;
   bottom: -10px;
 }

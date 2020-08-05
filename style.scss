@@ -412,7 +412,7 @@ section.loyalty{text-align: center;margin-top: 50px;
     } 
     }
 }
-ol.carousel-indicators{left:inherit;margin-right:0;bottom:-10px;
+ol.carousel-indicators{left:0;margin-right:0;bottom:-10px;
     li{background-color:#232331;width: 50px;height:4px;
         &.active{background-color: #E53D35;}
     }
