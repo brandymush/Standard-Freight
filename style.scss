@@ -751,10 +751,10 @@ section.about-us{
   
     body > div:nth-child(3) > section > div > div:nth-child(1) > div > div > div{height:102px !important;width: 116px !important;}
     .billboard.about{height:60vh;background-position: right;}
-    .billboard{height:60vh;
+    .billboard{height:70vh;
         .overlay{opacity:1;background-color: transparent;display: none;}
     }
-    .navbar{opacity: 1;padding:0 40px;
+    .navbar{opacity: 1;padding:0 40px;position: relative;
         // logo//
           button{
               img{height:80px;}
