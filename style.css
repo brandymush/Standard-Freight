@@ -1641,7 +1641,7 @@ body > section.team > div > div > div > div.owl-stage-outer {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin-top: 50px !important;
+  margin-top: 20px !important;
 }
 
 .owl-dots button {
