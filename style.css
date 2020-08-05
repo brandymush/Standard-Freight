@@ -1779,17 +1779,17 @@ body > section.team > div > div > div > div.owl-stage-outer {
             justify-content: center;
   }
   .admin .admin-infor .caption, .driver .admin-infor .caption {
-    height: 258px;
+    height: 170px;
     width: 100%;
     position: relative;
     margin-right: 0px;
     margin-bottom: 20px;
   }
   .admin .admin-infor .require h4, .driver .admin-infor .require h4 {
-    font-size: 22px;
+    font-size: normal;
   }
   .admin .admin-infor .require ul li, .driver .admin-infor .require ul li {
-    font-size: 18px;
+    font-size: 14px;
   }
   .admin .admin-infor a.submit, .driver .admin-infor a.submit {
     margin: auto;
