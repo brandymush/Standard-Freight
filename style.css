@@ -1799,10 +1799,8 @@ body > section.team > div > div > div > div.owl-stage-outer {
   }
   #carouselExampleIndicators > ol {
     bottom: -36px;
-    right: 0;
+    right: -20px;
     bottom: -36px;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
   }
   body > section.team > div > div > div > div.owl-stage-outer {
     padding-bottom: 0;
