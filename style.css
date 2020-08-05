@@ -104,16 +104,17 @@ button:focus {
   padding: 0;
 }
 
-.navbar button.navbar-toggler span {
+.navbar button.navbar-toggler div {
   display: block;
   height: 4px;
-  width: 100%;
+  width: 40px;
   background-color: #fff;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
+  content: '';
 }
 
-.navbar button.navbar-toggler span:nth-of-type(2) {
+.navbar button.navbar-toggler div:nth-of-type(2) {
   margin: 7px 0;
 }
 
@@ -2077,27 +2078,27 @@ body > section.team > div > div > div > div.owl-stage-outer {
     padding: 0;
     display: flex;
   }
-  .navbar button.navbar-toggler span {
+  .navbar button.navbar-toggler div {
     display: block;
     height: 4px;
-    width: 100%;
+    width: 40px;
     background-color: #fff;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
   }
-  .navbar button.navbar-toggler span:nth-of-type(2) {
+  .navbar button.navbar-toggler div:nth-of-type(2) {
     margin: 7px 0;
   }
-  .navbar button.main span:nth-of-type(2) {
+  .navbar button.main div:nth-of-type(2) {
     opacity: 0;
   }
-  .navbar button.main span#one {
+  .navbar button.main div#one {
     -webkit-transform: rotate(-36deg);
             transform: rotate(-36deg);
     -webkit-transform-origin: 99%;
             transform-origin: 99%;
   }
-  .navbar button.main span#three {
+  .navbar button.main div#three {
     -webkit-transform: rotate(36deg);
             transform: rotate(36deg);
     -webkit-transform-origin: 96%;
