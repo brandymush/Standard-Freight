@@ -62,6 +62,10 @@ button:focus {
           box-shadow: none !important;
 }
 
+input#file-upload-button {
+  background-color: black;
+}
+
 .navbar {
   height: 108px;
   background: #000;
@@ -1480,6 +1484,86 @@ section.loyalty p {
 .admin .require a.submit:hover, .driver .require a.submit:hover {
   background-color: #000;
   color: #fff;
+}
+
+.admin #popup > div > div > div.modal-body > form sup, .driver #popup > div > div > div.modal-body > form sup {
+  top: 0;
+  color: #E53D35;
+}
+
+.admin #popup > div > div > div.modal-body > form input, .driver #popup > div > div > div.modal-body > form input {
+  margin: 20px 0;
+  border: 2px solid #000;
+  width: 100%;
+  height: 50px;
+}
+
+.admin #popup > div > div > div.modal-body > form input > #file-upload-button, .driver #popup > div > div > div.modal-body > form input > #file-upload-button {
+  background: black !important;
+}
+
+.admin #popup > div > div > div.modal-body > form label, .driver #popup > div > div > div.modal-body > form label {
+  font-size: 16px;
+  font-family: "roman";
+  margin: 15px 0;
+}
+
+.admin #popup > div > div > div.modal-body > form label input, .driver #popup > div > div > div.modal-body > form label input {
+  margin: 20px 0;
+  border: 2px solid #000;
+  width: 100%;
+}
+
+.admin #popup > div > div > div.modal-body > form label input > ::-webkit-input-placeholder, .driver #popup > div > div > div.modal-body > form label input > ::-webkit-input-placeholder {
+  background-color: black;
+}
+
+.admin #popup > div > div > div.modal-body > form label input > :-ms-input-placeholder, .driver #popup > div > div > div.modal-body > form label input > :-ms-input-placeholder {
+  background-color: black;
+}
+
+.admin #popup > div > div > div.modal-body > form label input > ::-ms-input-placeholder, .driver #popup > div > div > div.modal-body > form label input > ::-ms-input-placeholder {
+  background-color: black;
+}
+
+.admin #popup > div > div > div.modal-body > form label input > ::placeholder, .driver #popup > div > div > div.modal-body > form label input > ::placeholder {
+  background-color: black;
+}
+
+.admin #popup > div > div > div.modal-body > form label input#file-upload-button, .driver #popup > div > div > div.modal-body > form label input#file-upload-button {
+  background: #000 !important;
+}
+
+.admin #popup > div > div > div.modal-body > form label input[type="file"], .driver #popup > div > div > div.modal-body > form label input[type="file"] {
+  border: none;
+  padding: 10px;
+}
+
+.admin #popup > div > div > div.modal-body > form label select, .driver #popup > div > div > div.modal-body > form label select {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #000;
+  margin-top: 15px;
+}
+
+.admin #popup > div > div > div.modal-body > form button, .driver #popup > div > div > div.modal-body > form button {
+  background-color: #E53D35;
+  color: #FDFDFD;
+  font-family: "bold";
+  font-size: 22px;
+  border: none;
+  height: 40px;
+  width: 120px;
+}
+
+.admin .modal-footer button, .driver .modal-footer button {
+  background-color: #E53D35;
+  font-family: "roman";
+}
+
+.admin .modal-footer button:focus, .driver .modal-footer button:focus {
+  background-color: #E53D35;
+  font-family: 'bold';
 }
 
 ol.carousel-indicators {

@@ -105,7 +105,8 @@
            <li> Develop, implement and review operational policies and procedures.</li>
 
           </ul>
-          <a href="mailto:@standard-freight.com?subject=Application for the Operations Manager Position" class="submit">Apply Now</a>
+         <a href="#" class="submit"data-toggle="modal" data-target="#popup"  >Apply Now</a>
+
         
       </div>
     </div>
@@ -128,11 +129,15 @@
            <li> Develop, implement and review operational policies and procedures.</li>
 
           </ul>
-          <a href="mailto:@standard-freight.com?subject=Application for Directors Operations Position" class="submit">Apply Now</a>
+        <a href="#" class="submit"data-toggle="modal" data-target="#popup"  >Apply Now</a>
+
+
+
+    </div>
         
       </div>
     </div>
-        </div>
+        
         <div class="carousel-item">
       
           <div class="admin-infor">
@@ -151,16 +156,9 @@
                <li> Develop, implement and review operational policies and procedures.</li>
     
               </ul>
-              <a href="mailto:@standard-freight.com?subject=Application for the Human Resources Positions" class="submit">Apply Now</a>
-            
-          </div>
-        </div>
-        </div>
-      </div>
-      
-    </div>
+             <a href="#" class="submit" data-toggle="modal" data-target="#popup"  >Apply Now</a>
+            </div>
 
-  </div>
 </section>
 
 <!-- ends -->
@@ -186,7 +184,63 @@
          <li> We are always on the lookout for drivers.</li>
 
         </ul>
-        <a href="mailto:@standard-freight.com?subject=Application for the Driver's Position" class="submit">Apply Now</a>
+        <a href="#" class="submit"data-toggle="modal" data-target="#popup"  >Apply Now</a>
+
+<div class="modal fade" id="popup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index:999999999999;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+       
+       <form action="post" class="form-group" aria-required="true">
+          <div class="row">
+          <div class="col">
+            <label for="name">Name <sup>*</sup></label>
+           <input type="text" name="" class="form-control">
+         </div>
+          <div class="col">
+             <label for="surname">Surname <sup>*</sup></label>
+       <input type="text" name="surname" class="form-control" >
+        </div>
+      </div>
+         <label for="phone" class="d-block">
+           Phone Number <sup>*</sup>
+           <input type="phone" name="phone" class="form-control" required>
+         </label>
+          <label for="email" class="d-block">
+           Email<sup>*</sup>
+           <input type="email" name="email" class="form-control" required>
+         </label>
+          <label for="inputGroupSelect01" class="w-100">Opportunity<sup>*</sup>
+            <select class="custom-select form-control w-100" id="inputGroupSelect01">
+              <option selected>Driver</option>
+               <option value="1">Assistant</option>
+               <option value="2">Driver</option>
+                 <option value="3">Mechanic</option>
+                      </select>
+          </label>
+
+         <div class="d-flex justify-content-between">
+           <label for="exampleFormControlFile1">Attach Your Resume<sup>*</sup>
+             <input type="file" class="form-control-file" id="exampleFormControlFile1">
+
+           </label>
+            <label for="exampleFormControlFile2">Attach Your Cover Letter<sup>*</sup>
+             <input type="file" class="form-control-file" id="exampleFormControlFile2">
+           </label>
+           
+          </div>
+          <button type="submit">Submit</button>
+       </form>
+
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close </button>
+       
+      </div>
+   
+  </div>
+</div>
 
     </div>
   </div>
