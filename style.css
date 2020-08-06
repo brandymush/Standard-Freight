@@ -1500,6 +1500,7 @@ section.loyalty p {
 
 .admin #popup > div > div > div.modal-body > form input > #file-upload-button, .driver #popup > div > div > div.modal-body > form input > #file-upload-button {
   background: black !important;
+  padding-left: 0;
 }
 
 .admin #popup > div > div > div.modal-body > form label, .driver #popup > div > div > div.modal-body > form label {
@@ -1532,11 +1533,13 @@ section.loyalty p {
 
 .admin #popup > div > div > div.modal-body > form label input#file-upload-button, .driver #popup > div > div > div.modal-body > form label input#file-upload-button {
   background: #000 !important;
+  padding-left: 0;
 }
 
 .admin #popup > div > div > div.modal-body > form label input[type="file"], .driver #popup > div > div > div.modal-body > form label input[type="file"] {
   border: none;
   padding: 10px;
+  padding-left: 0;
 }
 
 .admin #popup > div > div > div.modal-body > form label select, .driver #popup > div > div > div.modal-body > form label select {
