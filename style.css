@@ -69,8 +69,8 @@ input#file-upload-button {
 .navbar {
   height: 108px;
   background: #000;
-  padding-left: 134px;
-  padding-right: 172px;
+  padding-left: 100px;
+  padding-right: 122px;
   position: fixed;
   width: 100%;
   opacity: .7;
@@ -130,7 +130,7 @@ input#file-upload-button {
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item a {
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'roman';
   text-transform: uppercase;
   color: #fff;
@@ -481,37 +481,6 @@ section.about-section a .right:before {
   left: -50px;
 }
 
-section.about-section a:hover .left {
-  background-color: #E53D35;
-}
-
-section.about-section a:hover .left span {
-  z-index: 999;
-  position: relative;
-  color: #fff;
-}
-
-section.about-section a:hover .left:after {
-  background-color: #E53D35;
-  border-top: 100px solid #fff;
-}
-
-section.about-section a:hover .right {
-  background-color: #fff;
-  z-index: 99;
-  position: relative;
-}
-
-section.about-section a:hover .right i {
-  color: #E53D35;
-  border: 3px solid #E53D35;
-}
-
-section.about-section a:hover .right:before {
-  background-color: #E53D35;
-  border-bottom: 100px solid #fff;
-}
-
 .services {
   padding: 80px 0 100px;
   background-color: whitesmoke;
@@ -533,7 +502,7 @@ section.about-section a:hover .right:before {
 }
 
 .services > div h3 img {
-  height: 40px;
+  height: 50px;
   margin-right: 20px;
 }
 
@@ -565,7 +534,7 @@ section.about-section a:hover .right:before {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background: #FDFDFD;
+  background: whitesmoke;
   left: 0px;
 }
 
@@ -573,7 +542,7 @@ section.about-section a:hover .right:before {
   content: '';
   left: 100%;
   margin-left: -1%;
-  border-left: 50px solid #FDFDFD;
+  border-left: 50px solid whitesmoke;
   border-top: 100px solid transparent;
   position: absolute;
   z-index: 1;
@@ -582,7 +551,7 @@ section.about-section a:hover .right:before {
 .services > div > div .service-cards .img .icon img {
   height: 70px;
   position: relative;
-  left: 30%;
+  left: 0%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -1039,10 +1008,10 @@ footer .footer-item:after {
   border-top: 100px solid #E53D35;
   border-bottom: 49px solid transparent;
   border-left: 0px solid transparent;
-  border-right: 83px solid transparent;
+  border-right: 110px solid transparent;
   position: absolute;
   top: -50px;
-  right: -47px;
+  right: -57px;
   -webkit-transform: rotate(270deg);
   transform: rotate(270deg);
   z-index: 999;
@@ -1509,6 +1478,22 @@ footer #last .tag-items a i {
   border: 1px solid #707070;
 }
 
+.contact-us .contact-form textarea::-webkit-input-placeholder {
+  color: #707070;
+}
+
+.contact-us .contact-form textarea:-ms-input-placeholder {
+  color: #707070;
+}
+
+.contact-us .contact-form textarea::-ms-input-placeholder {
+  color: #707070;
+}
+
+.contact-us .contact-form textarea::placeholder {
+  color: #707070;
+}
+
 .contact-us .contact-form button {
   border: none;
   background-color: #E53D35;
@@ -1955,6 +1940,9 @@ body > section.team > div > div > div > div.owl-stage-outer {
 }
 
 @media (max-width: 320px) {
+  .contact img {
+    height: 50px !important;
+  }
   nav.navbar .logo img {
     height: 30px;
   }
@@ -2206,7 +2194,7 @@ body > section.team > div > div > div > div.owl-stage-outer {
     content: '';
     left: 100%;
     margin-left: 0%;
-    border-left: 50px solid #FDFDFD;
+    border-left: 50px solid whitesmoke;
     border-top: 105px solid transparent;
   }
   .services > div > div .service-cards .img .icon img {
@@ -2231,6 +2219,9 @@ body > section.team > div > div > div > div.owl-stage-outer {
   }
   .navbar button img {
     height: 40px !important;
+  }
+  .navbar ul li a {
+    font-size: 16px;
   }
   .testimonials {
     height: 100%;
@@ -2284,9 +2275,6 @@ body > section.team > div > div > div > div.owl-stage-outer {
   .contact img {
     z-index: 3;
     height: 70px;
-  }
-  section.about-us h2 {
-    font-size: 26px;
   }
   section.about-us h2 img {
     height: 40px;
@@ -2343,6 +2331,17 @@ body > section.team > div > div > div > div.owl-stage-outer {
 }
 
 @media (max-width: 991px) {
+  section.about-section > div h2 {
+    font-size: 25px;
+  }
+  section.about-section > div h2 img {
+    height: 45px;
+  }
+  section.about-section > div p {
+    font-family: "roman";
+    font-size: 20px;
+    line-height: 24px;
+  }
   .navbar {
     opacity: 1;
   }
@@ -2492,7 +2491,7 @@ body > section.team > div > div > div > div.owl-stage-outer {
     padding-right: 45px;
   }
   .navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
-    font-size: 30px;
+    font-size: 24px !important;
     font-family: 'roman';
     text-transform: uppercase;
     color: #fff;
@@ -2519,7 +2518,7 @@ body > section.team > div > div > div > div.owl-stage-outer {
     content: '';
     left: 100%;
     margin-left: -0.5%;
-    border-left: 50px solid #FDFDFD;
+    border-left: 50px solid whitesmoke;
     border-top: 105px solid transparent;
   }
   section.services > div > div .service-cards .img .icon img {
@@ -2925,13 +2924,14 @@ body > section.team > div > div > div > div.owl-stage-outer {
     content: '';
     left: 98%;
     margin-left: 0%;
-    border-left: 50px solid #FDFDFD;
+    border-left: 50px solid whitesmoke;
     border-top: 105px solid transparent;
   }
   .services > div > div .service-cards .img .icon img {
     -ms-flex-item-align: end;
         align-self: flex-end;
     height: 100px;
+    left: 0;
   }
   .services > div > div .service-cards .img .icon img:nth-of-type(3) {
     height: 100px;
@@ -3016,7 +3016,7 @@ body > section.team > div > div > div > div.owl-stage-outer {
     content: '';
     left: 99%;
     margin-left: 0%;
-    border-left: 50px solid #FDFDFD;
+    border-left: 50px solid whitesmoke;
     border-top: 105px solid transparent;
   }
   .services > div > div .service-cards .img .icon img {
@@ -3042,6 +3042,7 @@ body > section.team > div > div > div > div.owl-stage-outer {
 @media (min-width: 1200px) {
   section.billboard h1 {
     line-height: 90px;
+    font-size: 75px !important;
   }
   .main-footer {
     position: relative;
@@ -3065,10 +3066,10 @@ body > section.team > div > div > div > div.owl-stage-outer {
     border-top: 100px solid #E53D35;
     border-bottom: 49px solid transparent;
     border-left: 0px solid transparent;
-    border-right: 83px solid transparent;
+    border-right: 110px solid transparent;
     position: absolute;
-    top: -50px;
-    right: -47px;
+    top: -65px;
+    right: -43px;
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
     z-index: 999;
@@ -3124,6 +3125,9 @@ body > section.team > div > div > div > div.owl-stage-outer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  footer .footer-item .icon img {
+    left: 20%;
   }
   footer .footer-item a.submit {
     font-family: 'bold';

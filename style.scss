@@ -56,7 +56,7 @@ button:focus {
 input#file-upload-button{background-color: black;}
 // header styling starts
 
-.navbar{height: 108px;background:#000;padding-left:134px;padding-right:172px;position: fixed;width: 100%;opacity:.7;z-index: 99786686868999;transition:all .3s ease-in;
+.navbar{height: 108px;background:#000;padding-left:100px;padding-right:122px;position: fixed;width: 100%;opacity:.7;z-index: 99786686868999;transition:all .3s ease-in;
     // logo//
     .logo{z-index: 99999999;position: relative;
         img{height: 75px;}}
@@ -73,7 +73,7 @@ input#file-upload-button{background-color: black;}
     .navbar-collapse{
         .navbar-nav{
             .nav-item{padding-right:45px;width:fit-content;
-                a{font-size:20px;font-family:'roman';text-transform: uppercase;color:#fff;
+                a{font-size:18px;font-family:'roman';text-transform: uppercase;color:#fff;
                     &::after{content: '';height: 3px; width:0%;background-color:#fff;display: block;margin-top:10px;transition:width .5s ease-out;}
                     &:hover{
                         &::after{width:100%;}}}}}}
@@ -142,20 +142,20 @@ input#file-upload-button{background-color: black;}
           
           &:before {  content: ''; line-height: 0;font-size: 0;width: 0; height: 0;border-top: 50px solid transparent;border-bottom: 100px solid #000; border-left: 50px solid transparent; border-right: 0px solid #fff;position: absolute; top: -50px; left: -50px;
           }}
-          &:hover{
-              .left{background-color:#E53D35;
-                span{z-index:999;position: relative;color: #fff;}
-                &:after{background-color:#E53D35;border-top: 100px solid #fff;}
-            }
-              .right{background-color: #fff;z-index:99;position: relative;
+        //   &:hover{
+        //       .left{background-color:#000;
+        //         span{z-index:999;position: relative;color: #fff;}
+        //         &:after{background-color:#000;border-top: 100px solid #000;}
+        //     }
+        //       .right{background-color:#E53D35;z-index:99;position: relative;
                 
-                i{color: #E53D35;border:3px solid #E53D35;}
-                &:before{background-color:#E53D35;border-bottom: 100px solid #fff;
+        //         i{color: #fff;border:3px solid #E53D35;}
+        //         &:before{background-color:#E53D35;border-bottom: 100px solid #E53D35;
                     
-                }
-            }
+        //         }
+        //     }
              
-          }
+        //   }
          
         }
     }
@@ -165,16 +165,16 @@ input#file-upload-button{background-color: black;}
         >div{
             h3{font-size: 40px;font-family:'bold';display: flex;
                 align-items: center;justify-content: center;padding-bottom:20px;
-                img{height:40px;margin-right:20px;}
+                img{height:50px;margin-right:20px;}
             }
             >div{
                 .service-cards{width:100%;
                     .img{width:100%;position: relative;display:flex;align-items:flex-end;height:231px;padding-bottom:10px;border:none;
-                        .icon{width:118px;height:99px;position:absolute;display:flex;align-items:flex-end;background:#FDFDFD;left:0px;
-                            &:after{ content: '';left:100%;margin-left:-1%;border-left:50px solid #FDFDFD; border-top:100px solid transparent;position: absolute;z-index:1;
+                        .icon{width:118px;height:99px;position:absolute;display:flex;align-items:flex-end;background:whitesmoke;left:0px;
+                            &:after{ content: '';left:100%;margin-left:-1%;border-left:50px solid whitesmoke; border-top:100px solid transparent;position: absolute;z-index:1;
                             }
                             
-                            img{height: 70px;position: relative;left:30%;align-self: center;z-index:3;
+                            img{height: 70px;position: relative;left:0%;align-self:center;z-index:3;
                                 &:nth-of-type(3){height:82px;}
                             }
                         }
@@ -292,7 +292,7 @@ input#file-upload-button{background-color: black;}
        a{color: #fff;font-family:'bold';font-size: 30px;line-height:36px;position: relative;z-index: 3;border:3px solid #fff;text-decoration: none;height: 77px;width: 221px;display: flex;align-items: center;justify-content: center;text-transform: uppercase;transition:all .3s ease-in-out;
         &:hover{background-color: #fff;color:#000;}
     }
-
+    
 }
 
 // Contact Styles Ends
@@ -302,8 +302,8 @@ input#file-upload-button{background-color: black;}
 .main-footer{position: relative;} 
 footer{margin-top:90px;overflow: hidden;
 .footer-item{background: #E53C35;padding-left: 36px;padding-bottom: 115px;position: relative;
-    &:after {content: ''; line-height: 0;font-size: 0; width: 0;height: 0;border-top: 100px solid #E53D35;border-bottom: 49px solid transparent; border-left: 0px solid transparent; border-right: 83px solid transparent; position: absolute;
-        top: -50px; right: -47px;-webkit-transform: rotate(270deg); transform: rotate(270deg);z-index: 999; border-bottom-width: 0px;
+    &:after {content: ''; line-height: 0;font-size: 0; width: 0;height: 0;border-top: 100px solid #E53D35;border-bottom: 49px solid transparent; border-left: 0px solid transparent; border-right:110px solid transparent; position: absolute;
+        top: -50px; right :-57px;-webkit-transform: rotate(270deg); transform: rotate(270deg);z-index: 999; border-bottom-width: 0px;
     
       }
    
@@ -407,8 +407,9 @@ footer{margin-top:90px;overflow: hidden;
         &:focus{outline:0;}
     }
     textarea{height:150px;font-size: 22px;color:#000000;font-family: 'roman';margin-bottom: 18px;border: 1px solid #707070;
-       
+       &::placeholder{color:#707070;;}
     }
+
     button{border:none;background-color: #E53D35;height:59px;font-family: 'roman';font-size: 22px;color:#fff;padding:0 20px;transition:all .3 ease-in;
         &:focus{outline:0;}
         &:hover{background-color: #000;color:#fff;}
@@ -530,6 +531,11 @@ body > section.team > div > div > div > div.owl-stage-outer{height: 100%;padding
 }
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width:320px) {
+    .contact{
+       
+        img{height:50px !important;}}
+     
+ 
     nav.navbar{
         // logo//
         .logo{
@@ -541,11 +547,13 @@ body > section.team > div > div > div > div.owl-stage-outer{height: 100%;padding
         .billboard{
             h1{line-height: normal;font-size: 28px !important;}
         }
-}
+    }
 
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575px) {
+@media (max-width:575px) {
+
+   
     .owl-theme .owl-nav [class*=owl-]:hover{background-color: transparent;}
     .owl-dots{display: none;}
     .owl-prev, .owl-next {
@@ -669,7 +677,7 @@ footer{
                             &:after{
                                 content: '';
                                 left:100%;margin-left:0%;
-                             border-left:50px solid #FDFDFD;
+                             border-left:50px solid whitesmoke;
                               border-top:105px solid transparent;
                             }
                             
@@ -693,6 +701,11 @@ footer{
         img{height:35px;}}
           button{
               img{height:40px !important;}
+          }
+          ul{
+              li{
+                  a{font-size:16px;}
+              }
           }
         }
         .testimonials{height: 100%;padding-bottom:25px;
@@ -734,7 +747,7 @@ footer{
 // ABOUT US
 
 section.about-us{
-    h2{font-size:26px;
+    h2{
         img{height: 40px;}
     }
     .mission-caption{flex-wrap: wrap-reverse;justify-content:center;
@@ -760,10 +773,19 @@ section.about-us{
 // ABOUT US ENDS
 
 
+
+
 }
 
 
 @media (max-width: 991px){
+    section.about-section{
+        >div{
+         h2{font-size:25px; img{height: 45px;}}
+         p{font-family:"roman";font-size: 20px;line-height: 24px;}
+           
+          }
+      }
     .navbar{opacity:1;
         button.navbar-toggler{height:50px;width:40px;display:flex;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0;display:flex;
             div{display: block;height:4px;width:40px;background-color: #fff;transition:all .5s ease-in-out;
@@ -833,7 +855,7 @@ section.about-us{
         .navbar-collapse{position: absolute;top:100%;background-color:#E53D35;left:0;width: 100%;opacity:1;padding:20px 40px;
             ul.navbar-nav{
                 li.nav-item{padding-right:45px;
-                    a.nav-link{font-size:30px;font-family:'roman';text-transform: uppercase;color:#fff;
+                    a.nav-link{font-size:24px !important;font-family:'roman';text-transform: uppercase;color:#fff;
                         &::after{content: '';height: 3px; width:0%;background-color:#fff;display: block;margin-top:10px;transition:width .5s ease-out;}
                         &:hover{
                             &::after{width:100%;}
@@ -858,7 +880,7 @@ section.services{
                         &:after{
                             content: '';
                             left:100%;margin-left:-0.5%;
-                         border-left:50px solid #FDFDFD;
+                         border-left:50px solid whitesmoke;
                           border-top:105px solid transparent;
                         }
                         
@@ -1143,11 +1165,11 @@ footer{
                         &:after{
                             content: '';
                             left:98%;margin-left:0%;
-                         border-left:50px solid #FDFDFD;
+                         border-left:50px solid whitesmoke;
                           border-top:105px solid transparent;
                         }
                         
-                        img{align-self:flex-end;height:100px;
+                        img{align-self:flex-end;height:100px;left:0;
                             &:nth-of-type(3){height:100px;}
                         }
                     }
@@ -1219,7 +1241,7 @@ footer{margin-top:90px;overflow: hidden;
                         &:after{
                             content: '';
                             left:99%;margin-left:0%;
-                         border-left:50px solid #FDFDFD;
+                         border-left:50px solid whitesmoke;
                           border-top:105px solid transparent;
                         }
                         
@@ -1248,13 +1270,13 @@ footer{margin-top:90px;overflow: hidden;
 @media (min-width: 1200px) {
 
 section.billboard{
-    h1{line-height:90px;}
+    h1{line-height:90px;font-size: 75px !important;}
 }
 // foooter///styles
 .main-footer{position: relative;} 
 footer{margin-top:90px;overflow: hidden;
 .footer-item{background: #E53C35;padding-left: 36px;padding-bottom: 115px;position: relative;
-    &:after { content: ''; line-height: 0;font-size: 0; width: 0; height: 0;border-top: 100px solid #E53D35; border-bottom: 49px solid transparent; border-left: 0px solid transparent; border-right: 83px solid transparent; position: absolute;top: -50px; right: -47px;-webkit-transform: rotate(270deg);transform: rotate(270deg);z-index: 999;border-bottom-width: 0px;
+    &:after { content: ''; line-height: 0;font-size: 0; width: 0; height: 0;border-top: 100px solid #E53D35; border-bottom: 49px solid transparent; border-left: 0px solid transparent; border-right:110px solid transparent; position: absolute;top: -65px; right:-43px;-webkit-transform: rotate(270deg);transform: rotate(270deg);z-index: 999;border-bottom-width: 0px;
     
       }
    
@@ -1266,6 +1288,7 @@ footer{margin-top:90px;overflow: hidden;
             i{font-size:17px;margin-right:10px;border:2px solid #fff;border-radius:100%;padding:16px;height:26px;width:26px;display: flex;justify-content: center;align-items: center;}
            
         }
+        img{left:20%;}
     }
 
     a.submit{font-family:'bold';color: #fff;text-align: center;display: block;height: 68px;width: 223px;text-align: center;display: flex;justify-content:center;margin:auto;background:#E53C35;align-items:center;text-decoration: none;box-shadow: 19px 12px 16px rgba(0, 0, 0, 0.39);position: relative;z-index: 99999;font-size: 23px;transition:all .5s ease-in-out;

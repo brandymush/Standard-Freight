@@ -18,7 +18,15 @@ $(".navbar-toggler").click(function(e){
     e.preventDefault();
     $('.navbar-toggler').toggleClass("main");
   });
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
 $.fn.carousel.TRANSITION_DURATION = 1000;
 
 $('.carousel').carousel();
@@ -57,12 +65,3 @@ var carouselOption={
 }
 owl.owlCarousel(carouselOption);
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
